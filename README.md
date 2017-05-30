@@ -11,7 +11,7 @@ Users, roles, hierarhies, events, customers, reports, etc.
 
 
 
-- Jorge Gomez Solano _ 
+- Jorge Gomez Solano _ nojodagoso
 - Mario Baraquiso _ 
 - Oscar Morera Gonzalez _ 
 - Marco Lizano Zuñiga _ 
