@@ -14,5 +14,5 @@ Users, roles, hierarhies, events, customers, reports, etc.
 - Jorge Gomez Solano _ nojodagoso
 - Mario Baraquiso _ 
 - Oscar Morera Gonzalez _ 
-- Marco Lizano Zuñiga _ 
+- Marco Lizano Rojas_ MLizano
 - Valeria Monge Mora _ vmonge
