@@ -1,6 +1,6 @@
 # UGYM_Mobile_App
 
-This is a projected created by students from Universidad Fidelitas
+This is a project created by students from Universidad Fidelitas
 
 Consists in creating a mobile and web app for a gym and its customers. 
 
@@ -13,9 +13,9 @@ Users, roles, hierarhies, events, customers, reports, etc.
 
 
 - Jorge Gomez Solano _ nojodagoso
-- Mario Baraquiso _ 
-- Oscar Morera Gonzalez _ 
-- Marco Lizano Rojas_ MLizano
+- Mario Baraquiso _ mariodres
+- Oscar Morera Gonzalez _ oscarmorera
+- Marco Lizano Rojas _ MLizano
 - Valeria Monge Mora _ vmonge
 
 
