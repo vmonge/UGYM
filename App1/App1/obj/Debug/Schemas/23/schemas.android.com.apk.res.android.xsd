@@ -2,7 +2,7 @@
 <xs:schema xmlns:android="http://schemas.android.com/apk/res/android" attributeFormDefault="qualified" targetNamespace="http://schemas.android.com/apk/res/android" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:annotation>
     <xs:documentation>v23</xs:documentation>
-    <xs:documentation>6/20/2017 2:43:11 PM</xs:documentation>
+    <xs:documentation>6/20/2017 6:43:40 PM</xs:documentation>
   </xs:annotation>
   <xs:attribute name="accessibilityLiveRegion">
     <xs:annotation>
@@ -773,6 +773,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/curl_biceps" />
             <xs:enumeration value="@drawable/fondocelestefondoinicio" />
             <xs:enumeration value="@drawable/fondocelestefondologin" />
             <xs:enumeration value="@drawable/icon" />
@@ -1408,6 +1409,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/curl_biceps" />
             <xs:enumeration value="@drawable/fondocelestefondoinicio" />
             <xs:enumeration value="@drawable/fondocelestefondologin" />
             <xs:enumeration value="@drawable/icon" />
@@ -2082,6 +2084,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/curl_biceps" />
             <xs:enumeration value="@drawable/fondocelestefondoinicio" />
             <xs:enumeration value="@drawable/fondocelestefondologin" />
             <xs:enumeration value="@drawable/icon" />
@@ -2446,6 +2449,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/curl_biceps" />
             <xs:enumeration value="@drawable/fondocelestefondoinicio" />
             <xs:enumeration value="@drawable/fondocelestefondologin" />
             <xs:enumeration value="@drawable/icon" />
@@ -2761,6 +2765,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/curl_biceps" />
             <xs:enumeration value="@drawable/fondocelestefondoinicio" />
             <xs:enumeration value="@drawable/fondocelestefondologin" />
             <xs:enumeration value="@drawable/icon" />
@@ -3386,6 +3391,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/curl_biceps" />
             <xs:enumeration value="@drawable/fondocelestefondoinicio" />
             <xs:enumeration value="@drawable/fondocelestefondologin" />
             <xs:enumeration value="@drawable/icon" />
@@ -3705,6 +3711,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/curl_biceps" />
             <xs:enumeration value="@drawable/fondocelestefondoinicio" />
             <xs:enumeration value="@drawable/fondocelestefondologin" />
             <xs:enumeration value="@drawable/icon" />
@@ -4040,6 +4047,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/curl_biceps" />
             <xs:enumeration value="@drawable/fondocelestefondoinicio" />
             <xs:enumeration value="@drawable/fondocelestefondologin" />
             <xs:enumeration value="@drawable/icon" />
@@ -4318,6 +4326,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/curl_biceps" />
             <xs:enumeration value="@drawable/fondocelestefondoinicio" />
             <xs:enumeration value="@drawable/fondocelestefondologin" />
             <xs:enumeration value="@drawable/icon" />
@@ -4573,6 +4582,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/curl_biceps" />
             <xs:enumeration value="@drawable/fondocelestefondoinicio" />
             <xs:enumeration value="@drawable/fondocelestefondologin" />
             <xs:enumeration value="@drawable/icon" />
@@ -5146,6 +5156,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/curl_biceps" />
             <xs:enumeration value="@drawable/fondocelestefondoinicio" />
             <xs:enumeration value="@drawable/fondocelestefondologin" />
             <xs:enumeration value="@drawable/icon" />
@@ -5565,6 +5576,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/curl_biceps" />
             <xs:enumeration value="@drawable/fondocelestefondoinicio" />
             <xs:enumeration value="@drawable/fondocelestefondologin" />
             <xs:enumeration value="@drawable/icon" />
@@ -5950,6 +5962,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/curl_biceps" />
             <xs:enumeration value="@drawable/fondocelestefondoinicio" />
             <xs:enumeration value="@drawable/fondocelestefondologin" />
             <xs:enumeration value="@drawable/icon" />
@@ -6390,6 +6403,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/curl_biceps" />
             <xs:enumeration value="@drawable/fondocelestefondoinicio" />
             <xs:enumeration value="@drawable/fondocelestefondologin" />
             <xs:enumeration value="@drawable/icon" />
@@ -6705,6 +6719,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/curl_biceps" />
             <xs:enumeration value="@drawable/fondocelestefondoinicio" />
             <xs:enumeration value="@drawable/fondocelestefondologin" />
             <xs:enumeration value="@drawable/icon" />
@@ -7020,6 +7035,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/curl_biceps" />
             <xs:enumeration value="@drawable/fondocelestefondoinicio" />
             <xs:enumeration value="@drawable/fondocelestefondologin" />
             <xs:enumeration value="@drawable/icon" />
@@ -7375,6 +7391,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/curl_biceps" />
             <xs:enumeration value="@drawable/fondocelestefondoinicio" />
             <xs:enumeration value="@drawable/fondocelestefondologin" />
             <xs:enumeration value="@drawable/icon" />
@@ -7690,6 +7707,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/curl_biceps" />
             <xs:enumeration value="@drawable/fondocelestefondoinicio" />
             <xs:enumeration value="@drawable/fondocelestefondologin" />
             <xs:enumeration value="@drawable/icon" />
@@ -8115,6 +8133,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/curl_biceps" />
             <xs:enumeration value="@drawable/fondocelestefondoinicio" />
             <xs:enumeration value="@drawable/fondocelestefondologin" />
             <xs:enumeration value="@drawable/icon" />
@@ -8486,6 +8505,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/curl_biceps" />
             <xs:enumeration value="@drawable/fondocelestefondoinicio" />
             <xs:enumeration value="@drawable/fondocelestefondologin" />
             <xs:enumeration value="@drawable/icon" />
@@ -8765,6 +8785,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/curl_biceps" />
             <xs:enumeration value="@drawable/fondocelestefondoinicio" />
             <xs:enumeration value="@drawable/fondocelestefondologin" />
             <xs:enumeration value="@drawable/icon" />
@@ -9202,6 +9223,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/curl_biceps" />
             <xs:enumeration value="@drawable/fondocelestefondoinicio" />
             <xs:enumeration value="@drawable/fondocelestefondologin" />
             <xs:enumeration value="@drawable/icon" />
@@ -9613,6 +9635,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/curl_biceps" />
             <xs:enumeration value="@drawable/fondocelestefondoinicio" />
             <xs:enumeration value="@drawable/fondocelestefondologin" />
             <xs:enumeration value="@drawable/icon" />
@@ -10142,6 +10165,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/curl_biceps" />
             <xs:enumeration value="@drawable/fondocelestefondoinicio" />
             <xs:enumeration value="@drawable/fondocelestefondologin" />
             <xs:enumeration value="@drawable/icon" />
@@ -10609,6 +10633,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/curl_biceps" />
             <xs:enumeration value="@drawable/fondocelestefondoinicio" />
             <xs:enumeration value="@drawable/fondocelestefondologin" />
             <xs:enumeration value="@drawable/icon" />
@@ -11046,6 +11071,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/curl_biceps" />
             <xs:enumeration value="@drawable/fondocelestefondoinicio" />
             <xs:enumeration value="@drawable/fondocelestefondologin" />
             <xs:enumeration value="@drawable/icon" />
@@ -11659,6 +11685,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/curl_biceps" />
             <xs:enumeration value="@drawable/fondocelestefondoinicio" />
             <xs:enumeration value="@drawable/fondocelestefondologin" />
             <xs:enumeration value="@drawable/icon" />
@@ -11896,6 +11923,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/curl_biceps" />
             <xs:enumeration value="@drawable/fondocelestefondoinicio" />
             <xs:enumeration value="@drawable/fondocelestefondologin" />
             <xs:enumeration value="@drawable/icon" />
@@ -12133,6 +12161,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/curl_biceps" />
             <xs:enumeration value="@drawable/fondocelestefondoinicio" />
             <xs:enumeration value="@drawable/fondocelestefondologin" />
             <xs:enumeration value="@drawable/icon" />
@@ -12370,6 +12399,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/curl_biceps" />
             <xs:enumeration value="@drawable/fondocelestefondoinicio" />
             <xs:enumeration value="@drawable/fondocelestefondologin" />
             <xs:enumeration value="@drawable/icon" />
@@ -12607,6 +12637,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/curl_biceps" />
             <xs:enumeration value="@drawable/fondocelestefondoinicio" />
             <xs:enumeration value="@drawable/fondocelestefondologin" />
             <xs:enumeration value="@drawable/icon" />
@@ -12844,6 +12875,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/curl_biceps" />
             <xs:enumeration value="@drawable/fondocelestefondoinicio" />
             <xs:enumeration value="@drawable/fondocelestefondologin" />
             <xs:enumeration value="@drawable/icon" />
@@ -13081,6 +13113,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/curl_biceps" />
             <xs:enumeration value="@drawable/fondocelestefondoinicio" />
             <xs:enumeration value="@drawable/fondocelestefondologin" />
             <xs:enumeration value="@drawable/icon" />
@@ -13318,6 +13351,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/curl_biceps" />
             <xs:enumeration value="@drawable/fondocelestefondoinicio" />
             <xs:enumeration value="@drawable/fondocelestefondologin" />
             <xs:enumeration value="@drawable/icon" />
@@ -13749,6 +13783,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/curl_biceps" />
             <xs:enumeration value="@drawable/fondocelestefondoinicio" />
             <xs:enumeration value="@drawable/fondocelestefondologin" />
             <xs:enumeration value="@drawable/icon" />
@@ -14013,6 +14048,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/curl_biceps" />
             <xs:enumeration value="@drawable/fondocelestefondoinicio" />
             <xs:enumeration value="@drawable/fondocelestefondologin" />
             <xs:enumeration value="@drawable/icon" />
@@ -14250,6 +14286,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/curl_biceps" />
             <xs:enumeration value="@drawable/fondocelestefondoinicio" />
             <xs:enumeration value="@drawable/fondocelestefondologin" />
             <xs:enumeration value="@drawable/icon" />
@@ -14487,6 +14524,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/curl_biceps" />
             <xs:enumeration value="@drawable/fondocelestefondoinicio" />
             <xs:enumeration value="@drawable/fondocelestefondologin" />
             <xs:enumeration value="@drawable/icon" />
@@ -14724,6 +14762,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/curl_biceps" />
             <xs:enumeration value="@drawable/fondocelestefondoinicio" />
             <xs:enumeration value="@drawable/fondocelestefondologin" />
             <xs:enumeration value="@drawable/icon" />
@@ -15001,6 +15040,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/curl_biceps" />
             <xs:enumeration value="@drawable/fondocelestefondoinicio" />
             <xs:enumeration value="@drawable/fondocelestefondologin" />
             <xs:enumeration value="@drawable/icon" />
@@ -15238,6 +15278,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/curl_biceps" />
             <xs:enumeration value="@drawable/fondocelestefondoinicio" />
             <xs:enumeration value="@drawable/fondocelestefondologin" />
             <xs:enumeration value="@drawable/icon" />
@@ -15553,6 +15594,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/curl_biceps" />
             <xs:enumeration value="@drawable/fondocelestefondoinicio" />
             <xs:enumeration value="@drawable/fondocelestefondologin" />
             <xs:enumeration value="@drawable/icon" />
@@ -15830,6 +15872,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/curl_biceps" />
             <xs:enumeration value="@drawable/fondocelestefondoinicio" />
             <xs:enumeration value="@drawable/fondocelestefondologin" />
             <xs:enumeration value="@drawable/icon" />
@@ -16158,6 +16201,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/curl_biceps" />
             <xs:enumeration value="@drawable/fondocelestefondoinicio" />
             <xs:enumeration value="@drawable/fondocelestefondologin" />
             <xs:enumeration value="@drawable/icon" />
@@ -16395,6 +16439,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/curl_biceps" />
             <xs:enumeration value="@drawable/fondocelestefondoinicio" />
             <xs:enumeration value="@drawable/fondocelestefondologin" />
             <xs:enumeration value="@drawable/icon" />
@@ -16852,6 +16897,9 @@
             <xs:enumeration value="@+id/" />
             <xs:enumeration value="@+id/checkBox1" />
             <xs:enumeration value="@id/button1" />
+            <xs:enumeration value="@id/button2" />
+            <xs:enumeration value="@id/button3" />
+            <xs:enumeration value="@id/button4" />
             <xs:enumeration value="@id/checkedTextView1" />
             <xs:enumeration value="@id/editText1" />
             <xs:enumeration value="@id/editText2" />
@@ -16859,6 +16907,9 @@
             <xs:enumeration value="@id/linearLayout1" />
             <xs:enumeration value="@id/space1" />
             <xs:enumeration value="@id/space2" />
+            <xs:enumeration value="@id/space3" />
+            <xs:enumeration value="@id/textView1" />
+            <xs:enumeration value="@id/textView2" />
             <xs:enumeration value="@id/view1" />
             <xs:enumeration value="@android:id/accessibilityActionContextClick" />
             <xs:enumeration value="@android:id/accessibilityActionScrollDown" />
@@ -16934,6 +16985,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/curl_biceps" />
             <xs:enumeration value="@drawable/fondocelestefondoinicio" />
             <xs:enumeration value="@drawable/fondocelestefondologin" />
             <xs:enumeration value="@drawable/icon" />
@@ -17281,6 +17333,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/curl_biceps" />
             <xs:enumeration value="@drawable/fondocelestefondoinicio" />
             <xs:enumeration value="@drawable/fondocelestefondologin" />
             <xs:enumeration value="@drawable/icon" />
@@ -17613,6 +17666,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/curl_biceps" />
             <xs:enumeration value="@drawable/fondocelestefondoinicio" />
             <xs:enumeration value="@drawable/fondocelestefondologin" />
             <xs:enumeration value="@drawable/icon" />
@@ -18178,6 +18232,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/curl_biceps" />
             <xs:enumeration value="@drawable/fondocelestefondoinicio" />
             <xs:enumeration value="@drawable/fondocelestefondologin" />
             <xs:enumeration value="@drawable/icon" />
@@ -18501,6 +18556,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/curl_biceps" />
             <xs:enumeration value="@drawable/fondocelestefondoinicio" />
             <xs:enumeration value="@drawable/fondocelestefondologin" />
             <xs:enumeration value="@drawable/icon" />
@@ -18898,6 +18954,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/curl_biceps" />
             <xs:enumeration value="@drawable/fondocelestefondoinicio" />
             <xs:enumeration value="@drawable/fondocelestefondologin" />
             <xs:enumeration value="@drawable/icon" />
@@ -19255,6 +19312,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/curl_biceps" />
             <xs:enumeration value="@drawable/fondocelestefondoinicio" />
             <xs:enumeration value="@drawable/fondocelestefondologin" />
             <xs:enumeration value="@drawable/icon" />
@@ -19508,6 +19566,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/curl_biceps" />
             <xs:enumeration value="@drawable/fondocelestefondoinicio" />
             <xs:enumeration value="@drawable/fondocelestefondologin" />
             <xs:enumeration value="@drawable/icon" />
@@ -20206,6 +20265,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/curl_biceps" />
             <xs:enumeration value="@drawable/fondocelestefondoinicio" />
             <xs:enumeration value="@drawable/fondocelestefondologin" />
             <xs:enumeration value="@drawable/icon" />
@@ -20565,6 +20625,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/curl_biceps" />
             <xs:enumeration value="@drawable/fondocelestefondoinicio" />
             <xs:enumeration value="@drawable/fondocelestefondologin" />
             <xs:enumeration value="@drawable/icon" />
@@ -21558,6 +21619,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/curl_biceps" />
             <xs:enumeration value="@drawable/fondocelestefondoinicio" />
             <xs:enumeration value="@drawable/fondocelestefondologin" />
             <xs:enumeration value="@drawable/icon" />
@@ -21807,6 +21869,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/curl_biceps" />
             <xs:enumeration value="@drawable/fondocelestefondoinicio" />
             <xs:enumeration value="@drawable/fondocelestefondologin" />
             <xs:enumeration value="@drawable/icon" />
@@ -22085,6 +22148,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/curl_biceps" />
             <xs:enumeration value="@drawable/fondocelestefondoinicio" />
             <xs:enumeration value="@drawable/fondocelestefondologin" />
             <xs:enumeration value="@drawable/icon" />
@@ -22362,6 +22426,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/curl_biceps" />
             <xs:enumeration value="@drawable/fondocelestefondoinicio" />
             <xs:enumeration value="@drawable/fondocelestefondologin" />
             <xs:enumeration value="@drawable/icon" />
@@ -22599,6 +22664,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/curl_biceps" />
             <xs:enumeration value="@drawable/fondocelestefondoinicio" />
             <xs:enumeration value="@drawable/fondocelestefondologin" />
             <xs:enumeration value="@drawable/icon" />
@@ -22836,6 +22902,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/curl_biceps" />
             <xs:enumeration value="@drawable/fondocelestefondoinicio" />
             <xs:enumeration value="@drawable/fondocelestefondologin" />
             <xs:enumeration value="@drawable/icon" />
@@ -23073,6 +23140,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/curl_biceps" />
             <xs:enumeration value="@drawable/fondocelestefondoinicio" />
             <xs:enumeration value="@drawable/fondocelestefondologin" />
             <xs:enumeration value="@drawable/icon" />
@@ -23310,6 +23378,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/curl_biceps" />
             <xs:enumeration value="@drawable/fondocelestefondoinicio" />
             <xs:enumeration value="@drawable/fondocelestefondologin" />
             <xs:enumeration value="@drawable/icon" />
@@ -24020,6 +24089,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/curl_biceps" />
             <xs:enumeration value="@drawable/fondocelestefondoinicio" />
             <xs:enumeration value="@drawable/fondocelestefondologin" />
             <xs:enumeration value="@drawable/icon" />
@@ -24274,6 +24344,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/curl_biceps" />
             <xs:enumeration value="@drawable/fondocelestefondoinicio" />
             <xs:enumeration value="@drawable/fondocelestefondologin" />
             <xs:enumeration value="@drawable/icon" />
@@ -24589,6 +24660,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/curl_biceps" />
             <xs:enumeration value="@drawable/fondocelestefondoinicio" />
             <xs:enumeration value="@drawable/fondocelestefondologin" />
             <xs:enumeration value="@drawable/icon" />
@@ -25297,6 +25369,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/curl_biceps" />
             <xs:enumeration value="@drawable/fondocelestefondoinicio" />
             <xs:enumeration value="@drawable/fondocelestefondologin" />
             <xs:enumeration value="@drawable/icon" />
@@ -25652,6 +25725,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/curl_biceps" />
             <xs:enumeration value="@drawable/fondocelestefondoinicio" />
             <xs:enumeration value="@drawable/fondocelestefondologin" />
             <xs:enumeration value="@drawable/icon" />
@@ -26070,6 +26144,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/curl_biceps" />
             <xs:enumeration value="@drawable/fondocelestefondoinicio" />
             <xs:enumeration value="@drawable/fondocelestefondologin" />
             <xs:enumeration value="@drawable/icon" />
@@ -26417,6 +26492,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/curl_biceps" />
             <xs:enumeration value="@drawable/fondocelestefondoinicio" />
             <xs:enumeration value="@drawable/fondocelestefondologin" />
             <xs:enumeration value="@drawable/icon" />
@@ -26654,6 +26730,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/curl_biceps" />
             <xs:enumeration value="@drawable/fondocelestefondoinicio" />
             <xs:enumeration value="@drawable/fondocelestefondologin" />
             <xs:enumeration value="@drawable/icon" />
@@ -27435,6 +27512,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/curl_biceps" />
             <xs:enumeration value="@drawable/fondocelestefondoinicio" />
             <xs:enumeration value="@drawable/fondocelestefondologin" />
             <xs:enumeration value="@drawable/icon" />
@@ -27672,6 +27750,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/curl_biceps" />
             <xs:enumeration value="@drawable/fondocelestefondoinicio" />
             <xs:enumeration value="@drawable/fondocelestefondologin" />
             <xs:enumeration value="@drawable/icon" />
@@ -27909,6 +27988,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/curl_biceps" />
             <xs:enumeration value="@drawable/fondocelestefondoinicio" />
             <xs:enumeration value="@drawable/fondocelestefondologin" />
             <xs:enumeration value="@drawable/icon" />
@@ -28146,6 +28226,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/curl_biceps" />
             <xs:enumeration value="@drawable/fondocelestefondoinicio" />
             <xs:enumeration value="@drawable/fondocelestefondologin" />
             <xs:enumeration value="@drawable/icon" />
@@ -28563,6 +28644,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/curl_biceps" />
             <xs:enumeration value="@drawable/fondocelestefondoinicio" />
             <xs:enumeration value="@drawable/fondocelestefondologin" />
             <xs:enumeration value="@drawable/icon" />
@@ -28800,6 +28882,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/curl_biceps" />
             <xs:enumeration value="@drawable/fondocelestefondoinicio" />
             <xs:enumeration value="@drawable/fondocelestefondologin" />
             <xs:enumeration value="@drawable/icon" />
@@ -29205,6 +29288,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/curl_biceps" />
             <xs:enumeration value="@drawable/fondocelestefondoinicio" />
             <xs:enumeration value="@drawable/fondocelestefondologin" />
             <xs:enumeration value="@drawable/icon" />
@@ -29442,6 +29526,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/curl_biceps" />
             <xs:enumeration value="@drawable/fondocelestefondoinicio" />
             <xs:enumeration value="@drawable/fondocelestefondologin" />
             <xs:enumeration value="@drawable/icon" />
@@ -29757,6 +29842,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/curl_biceps" />
             <xs:enumeration value="@drawable/fondocelestefondoinicio" />
             <xs:enumeration value="@drawable/fondocelestefondologin" />
             <xs:enumeration value="@drawable/icon" />
@@ -30437,6 +30523,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/curl_biceps" />
             <xs:enumeration value="@drawable/fondocelestefondoinicio" />
             <xs:enumeration value="@drawable/fondocelestefondologin" />
             <xs:enumeration value="@drawable/icon" />
@@ -30967,6 +31054,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/curl_biceps" />
             <xs:enumeration value="@drawable/fondocelestefondoinicio" />
             <xs:enumeration value="@drawable/fondocelestefondologin" />
             <xs:enumeration value="@drawable/icon" />
@@ -31340,6 +31428,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/curl_biceps" />
             <xs:enumeration value="@drawable/fondocelestefondoinicio" />
             <xs:enumeration value="@drawable/fondocelestefondologin" />
             <xs:enumeration value="@drawable/icon" />
@@ -32528,6 +32617,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/curl_biceps" />
             <xs:enumeration value="@drawable/fondocelestefondoinicio" />
             <xs:enumeration value="@drawable/fondocelestefondologin" />
             <xs:enumeration value="@drawable/icon" />
@@ -32806,6 +32896,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/curl_biceps" />
             <xs:enumeration value="@drawable/fondocelestefondoinicio" />
             <xs:enumeration value="@drawable/fondocelestefondologin" />
             <xs:enumeration value="@drawable/icon" />
@@ -33134,6 +33225,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/curl_biceps" />
             <xs:enumeration value="@drawable/fondocelestefondoinicio" />
             <xs:enumeration value="@drawable/fondocelestefondologin" />
             <xs:enumeration value="@drawable/icon" />
@@ -33451,6 +33543,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/curl_biceps" />
             <xs:enumeration value="@drawable/fondocelestefondoinicio" />
             <xs:enumeration value="@drawable/fondocelestefondologin" />
             <xs:enumeration value="@drawable/icon" />
@@ -33688,6 +33781,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/curl_biceps" />
             <xs:enumeration value="@drawable/fondocelestefondoinicio" />
             <xs:enumeration value="@drawable/fondocelestefondologin" />
             <xs:enumeration value="@drawable/icon" />
@@ -33965,6 +34059,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/curl_biceps" />
             <xs:enumeration value="@drawable/fondocelestefondoinicio" />
             <xs:enumeration value="@drawable/fondocelestefondologin" />
             <xs:enumeration value="@drawable/icon" />
@@ -34202,6 +34297,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/curl_biceps" />
             <xs:enumeration value="@drawable/fondocelestefondoinicio" />
             <xs:enumeration value="@drawable/fondocelestefondologin" />
             <xs:enumeration value="@drawable/icon" />
@@ -34586,6 +34682,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/curl_biceps" />
             <xs:enumeration value="@drawable/fondocelestefondoinicio" />
             <xs:enumeration value="@drawable/fondocelestefondologin" />
             <xs:enumeration value="@drawable/icon" />
@@ -34823,6 +34920,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/curl_biceps" />
             <xs:enumeration value="@drawable/fondocelestefondoinicio" />
             <xs:enumeration value="@drawable/fondocelestefondologin" />
             <xs:enumeration value="@drawable/icon" />
@@ -35138,6 +35236,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/curl_biceps" />
             <xs:enumeration value="@drawable/fondocelestefondoinicio" />
             <xs:enumeration value="@drawable/fondocelestefondologin" />
             <xs:enumeration value="@drawable/icon" />
@@ -35453,6 +35552,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/curl_biceps" />
             <xs:enumeration value="@drawable/fondocelestefondoinicio" />
             <xs:enumeration value="@drawable/fondocelestefondologin" />
             <xs:enumeration value="@drawable/icon" />
@@ -35768,6 +35868,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/curl_biceps" />
             <xs:enumeration value="@drawable/fondocelestefondoinicio" />
             <xs:enumeration value="@drawable/fondocelestefondologin" />
             <xs:enumeration value="@drawable/icon" />
@@ -36083,6 +36184,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/curl_biceps" />
             <xs:enumeration value="@drawable/fondocelestefondoinicio" />
             <xs:enumeration value="@drawable/fondocelestefondologin" />
             <xs:enumeration value="@drawable/icon" />
@@ -36346,6 +36448,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/curl_biceps" />
             <xs:enumeration value="@drawable/fondocelestefondoinicio" />
             <xs:enumeration value="@drawable/fondocelestefondologin" />
             <xs:enumeration value="@drawable/icon" />
@@ -36583,6 +36686,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/curl_biceps" />
             <xs:enumeration value="@drawable/fondocelestefondoinicio" />
             <xs:enumeration value="@drawable/fondocelestefondologin" />
             <xs:enumeration value="@drawable/icon" />
@@ -36820,6 +36924,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/curl_biceps" />
             <xs:enumeration value="@drawable/fondocelestefondoinicio" />
             <xs:enumeration value="@drawable/fondocelestefondologin" />
             <xs:enumeration value="@drawable/icon" />
@@ -37057,6 +37162,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/curl_biceps" />
             <xs:enumeration value="@drawable/fondocelestefondoinicio" />
             <xs:enumeration value="@drawable/fondocelestefondologin" />
             <xs:enumeration value="@drawable/icon" />
@@ -37294,6 +37400,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/curl_biceps" />
             <xs:enumeration value="@drawable/fondocelestefondoinicio" />
             <xs:enumeration value="@drawable/fondocelestefondologin" />
             <xs:enumeration value="@drawable/icon" />
@@ -37705,6 +37812,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/curl_biceps" />
             <xs:enumeration value="@drawable/fondocelestefondoinicio" />
             <xs:enumeration value="@drawable/fondocelestefondologin" />
             <xs:enumeration value="@drawable/icon" />
@@ -37942,6 +38050,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/curl_biceps" />
             <xs:enumeration value="@drawable/fondocelestefondoinicio" />
             <xs:enumeration value="@drawable/fondocelestefondologin" />
             <xs:enumeration value="@drawable/icon" />
@@ -38179,6 +38288,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/curl_biceps" />
             <xs:enumeration value="@drawable/fondocelestefondoinicio" />
             <xs:enumeration value="@drawable/fondocelestefondologin" />
             <xs:enumeration value="@drawable/icon" />
@@ -39353,6 +39463,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/curl_biceps" />
             <xs:enumeration value="@drawable/fondocelestefondoinicio" />
             <xs:enumeration value="@drawable/fondocelestefondologin" />
             <xs:enumeration value="@drawable/icon" />
@@ -40180,6 +40291,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/curl_biceps" />
             <xs:enumeration value="@drawable/fondocelestefondoinicio" />
             <xs:enumeration value="@drawable/fondocelestefondologin" />
             <xs:enumeration value="@drawable/icon" />
@@ -40588,6 +40700,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/curl_biceps" />
             <xs:enumeration value="@drawable/fondocelestefondoinicio" />
             <xs:enumeration value="@drawable/fondocelestefondologin" />
             <xs:enumeration value="@drawable/icon" />
@@ -41340,6 +41453,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/curl_biceps" />
             <xs:enumeration value="@drawable/fondocelestefondoinicio" />
             <xs:enumeration value="@drawable/fondocelestefondologin" />
             <xs:enumeration value="@drawable/icon" />
@@ -41803,6 +41917,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/curl_biceps" />
             <xs:enumeration value="@drawable/fondocelestefondoinicio" />
             <xs:enumeration value="@drawable/fondocelestefondologin" />
             <xs:enumeration value="@drawable/icon" />
@@ -42056,6 +42171,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/curl_biceps" />
             <xs:enumeration value="@drawable/fondocelestefondoinicio" />
             <xs:enumeration value="@drawable/fondocelestefondologin" />
             <xs:enumeration value="@drawable/icon" />
@@ -42293,6 +42409,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/curl_biceps" />
             <xs:enumeration value="@drawable/fondocelestefondoinicio" />
             <xs:enumeration value="@drawable/fondocelestefondologin" />
             <xs:enumeration value="@drawable/icon" />
@@ -42530,6 +42647,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/curl_biceps" />
             <xs:enumeration value="@drawable/fondocelestefondoinicio" />
             <xs:enumeration value="@drawable/fondocelestefondologin" />
             <xs:enumeration value="@drawable/icon" />
@@ -42845,6 +42963,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/curl_biceps" />
             <xs:enumeration value="@drawable/fondocelestefondoinicio" />
             <xs:enumeration value="@drawable/fondocelestefondologin" />
             <xs:enumeration value="@drawable/icon" />
@@ -43212,6 +43331,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/curl_biceps" />
             <xs:enumeration value="@drawable/fondocelestefondoinicio" />
             <xs:enumeration value="@drawable/fondocelestefondologin" />
             <xs:enumeration value="@drawable/icon" />
@@ -43449,6 +43569,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/curl_biceps" />
             <xs:enumeration value="@drawable/fondocelestefondoinicio" />
             <xs:enumeration value="@drawable/fondocelestefondologin" />
             <xs:enumeration value="@drawable/icon" />
