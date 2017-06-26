@@ -17,7 +17,7 @@
         android:id="@+id/space1"
         android:layout_marginBottom="27.0dp" />
     <TextView
-        android:text="  Biseps con Mancuernas"
+        android:text="  Biceps con Mancuernas"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
