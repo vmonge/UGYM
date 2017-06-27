@@ -1,11 +1,8 @@
 C:\Users\jorge.gomez\Source\Repos\UGYM_Mobile_App\App1\App1\bin\Debug\App1.dll
 C:\Users\jorge.gomez\Source\Repos\UGYM_Mobile_App\App1\App1\bin\Debug\App1.pdb
-C:\Users\jorge.gomez\Source\Repos\UGYM_Mobile_App\App1\App1\bin\Debug\App1.App1.apk
-C:\Users\jorge.gomez\Source\Repos\UGYM_Mobile_App\App1\App1\bin\Debug\App1.App1-Signed.apk
 C:\Users\jorge.gomez\Source\Repos\UGYM_Mobile_App\App1\App1\obj\Debug\IGYM_app.csprojResolveAssemblyReference.cache
 C:\Users\jorge.gomez\Source\Repos\UGYM_Mobile_App\App1\App1\obj\Debug\App1.dll
 C:\Users\jorge.gomez\Source\Repos\UGYM_Mobile_App\App1\App1\obj\Debug\App1.pdb
-C:\Users\jorge.gomez\Source\Repos\UGYM_Mobile_App\App1\App1\obj\Debug\android\bin\App1.App1.apk
 C:\Users\jorge.gomez\Source\Repos\UGYM_Mobile_App\App1\App1\obj\Debug\res\layout\home.xml
 C:\Users\jorge.gomez\Source\Repos\UGYM_Mobile_App\App1\App1\obj\Debug\res\layout\login.xml
 C:\Users\jorge.gomez\Source\Repos\UGYM_Mobile_App\App1\App1\obj\Debug\res\values\strings.xml
@@ -19,3 +16,6 @@ C:\Users\jorge.gomez\Source\Repos\UGYM_Mobile_App\App1\App1\bin\Debug\App1.dll.m
 C:\Users\jorge.gomez\Source\Repos\UGYM_Mobile_App\App1\App1\obj\Debug\android\assets\App1.dll.mdb
 C:\Users\jorge.gomez\Source\Repos\UGYM_Mobile_App\App1\App1\obj\Debug\res\layout\rutina.xml
 C:\Users\jorge.gomez\Source\Repos\UGYM_Mobile_App\App1\App1\obj\Debug\res\drawable\curl-biceps.jpg
+C:\Users\jorge.gomez\Source\Repos\UGYM_Mobile_App\App1\App1\bin\Debug\UGYM.UGYM.apk
+C:\Users\jorge.gomez\Source\Repos\UGYM_Mobile_App\App1\App1\bin\Debug\UGYM.UGYM-Signed.apk
+C:\Users\jorge.gomez\Source\Repos\UGYM_Mobile_App\App1\App1\obj\Debug\android\bin\UGYM.UGYM.apk

@@ -2,7 +2,7 @@
 using Android.Widget;
 using Android.OS;
 
-namespace App1
+namespace UGYM
 {
     [Activity(Label = "UGYM", MainLauncher = true, Icon = "@drawable/icon")]
     public class MainActivity : Activity

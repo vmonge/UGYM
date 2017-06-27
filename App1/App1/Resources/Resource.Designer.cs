@@ -9,9 +9,9 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Android.Runtime.ResourceDesignerAttribute("App1.Resource", IsApplication=true)]
+[assembly: global::Android.Runtime.ResourceDesignerAttribute("UGYM.Resource", IsApplication=true)]
 
-namespace App1
+namespace UGYM
 {
 	
 	
