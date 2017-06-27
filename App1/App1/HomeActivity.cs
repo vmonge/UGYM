@@ -9,17 +9,21 @@ using Android.OS;
 using Android.Runtime;
 using Android.Views;
 using Android.Widget;
+using Android.Support.V7.App;
+using GR.Net.Maroulis.Library;
 
-namespace App1
+namespace UGYM
 {
-    [Activity(Label = "HomeActivity")]
-    public class HomeActivity : Activity
+    [Activity(Label = "HomeActivity", Theme ="@style/Theme.AppCompat.Light.NoActionBar")]
+    public class HomeActivity : AppCompatActivity
     {
+        int count = 0;
+
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
 
-            // Create your application here
+            SetContentView(Resource.Layout.Home);
         }
     }
 }

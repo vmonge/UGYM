@@ -1,32 +1,42 @@
 ﻿using Android.App;
 using Android.Widget;
 using Android.OS;
+using Android.Support.V7.App;
+using GR.Net.Maroulis.Library;
+using Android.Graphics;
+using Android.Views;
 
 namespace UGYM
 {
-    [Activity(Theme ="@style/MyTheme.Splash",MainLuncher = true,NoHistory =true)]
-    public class MainActivity : Activity
+    [Activity(Label = "SplashScreen",MainLauncher = true, Icon = "@drawable/logo_nuevo" , Theme = "@style/Theme.AppCompat.Light.NoActionBar")]
+    public class MainActivity : AppCompatActivity
     {
+
+
         protected override void OnCreate(Bundle bundle)
         {
             base.OnCreate(bundle);
 
-            
-        }
 
-        protected override void OnResume()
-        {
-            base.OnResume();
-            Task starWork = new Task(() =>
-            {
-                Task.Delay(3000);
-            });
+            var config = new EasySplashScreen(this)
+                .WithFullScreen()
+                .WithTargetActivity(Java.Lang.Class.FromType(typeof(HomeActivity)))
+                .WithSplashTimeOut(5000) // 5 sec
+                .WithBackgroundColor(Color.White)
+                .WithFooterText("Copyright 2017")
+                .WithBeforeLogoText("EDMT Dev co,Ltd")
+                .WithAfterLogoText("This is Easy Splash Screen");
 
-            startupWork.ContinueWith(t => {
-                StartActivity(new Intent(Application.Context, typeof(HomeActivity)));
-            },TaskSheduler.FromCurrentSynchronizationContext());
+            config.BeforeLogoTextView.SetTextColor(Color.Gray);
+            config.FooterTextView.SetTextColor(Color.Gray);
+            config.AfterLogoTextView.SetTextColor(Color.Gray);
 
-            starWork.Start();
+            View view = config.Create();
+            SetContentView(view);
+
+            //SetContentView(Resource.Layout.Splash);
+
+
         }
     }
 }
