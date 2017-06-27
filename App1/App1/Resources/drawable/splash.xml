@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<layer-list xml:andorid="http://schemas.andoid.com/apk/res/andoid">
+  <item>
+    <color android:color="@color/splash_background"/> 
+  </item>
+  <item>
+    <bitmap 
+      andorid:src="@drawable/splash_logo"
+      andorid:titleMode="disable"
+      andorid:gravity="center"/>
+  </item>
+</layer-list>
