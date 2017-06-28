@@ -9,7 +9,7 @@ using App1;
 
 namespace UGYM
 {
-    [Activity(Label = "SplashActivity",MainLauncher = true, Icon = "@drawable/logo_nuevo" , Theme = "@style/Theme.AppCompat.Light.NoActionBar")]
+    [Activity(Label = "UGYM",MainLauncher = true, Icon = "@drawable/logo_nuevo" , Theme = "@style/Theme.AppCompat.Light.NoActionBar")]
     public class SplashActivity : AppCompatActivity
     {
 
@@ -18,7 +18,7 @@ namespace UGYM
         {
             base.OnCreate(bundle);
             
-            EasySplashScreen config = new EasySplashScreen(this)
+            var config = new EasySplashScreen(this)
                 .WithFullScreen()
                 .WithTargetActivity(Java.Lang.Class.FromType(typeof(HomeActivity)))
                 .WithSplashTimeOut(5000)
