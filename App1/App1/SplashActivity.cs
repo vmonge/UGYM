@@ -9,7 +9,7 @@ using App1;
 
 namespace UGYM
 {
-    [Activity(Label = "UGYM",MainLauncher = true, Icon = "@drawable/logo_nuevo" , Theme = "@style/Theme.AppCompat.Light.NoActionBar")]
+    [Activity(Label = "UGYM",/*MainLauncher = true,*/ Icon = "@drawable/logo_nuevo", Theme = "@style/Theme.AppCompat.Light.NoActionBar")]
     public class SplashActivity : AppCompatActivity
     {
 

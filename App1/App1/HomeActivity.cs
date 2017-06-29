@@ -15,7 +15,7 @@ using App1;
 namespace UGYM
 {
     [Activity(Label = "HomeActivity", Theme ="@style/Theme.AppCompat.Light.NoActionBar")]
-    public class HomeActivity : AppCompatActivity
+    public class HomeActivity : Activity
     {
 
         protected override void OnCreate(Bundle savedInstanceState)

@@ -12,13 +12,14 @@ using Android.Widget;
 
 namespace App1
 {
-    [Activity(Label = "LoginActivity")]
+    [Activity(Label = "Login", MainLauncher = true , Theme = "@style/Theme.AppCompat.Light.NoActionBar")]
     public class LoginActivity : Activity
     {
         protected override void OnCreate(Bundle savedInstanceState)
         {
+            SetContentView(Resource.Layout.Login);
             base.OnCreate(savedInstanceState);
-
+            
             // Create your application here
         }
     }
