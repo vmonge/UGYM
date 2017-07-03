@@ -6,37 +6,42 @@ using GR.Net.Maroulis.Library;
 using Android.Graphics;
 using Android.Views;
 using App1;
+using System.Threading.Tasks;
+using Android.Util;
+using Android.Content;
 
 namespace UGYM
 {
-    [Activity(Label = "UGYM",/*MainLauncher = true,*/ Icon = "@drawable/logo_nuevo", Theme = "@style/Theme.AppCompat.Light.NoActionBar")]
+    [Activity(Label = "UGYM", MainLauncher = true, Icon = "@drawable/logo_nuevo", Theme = "@style/MyTheme.Splash", NoHistory = true)]
     public class SplashActivity : AppCompatActivity
     {
 
+        static readonly string TAG = "X:" + typeof(SplashActivity).Name;
 
-        protected override void OnCreate(Bundle bundle)
+        public override void OnCreate(Bundle savedInstanceState, PersistableBundle persistentState)
         {
-            base.OnCreate(bundle);
-            
-            var config = new EasySplashScreen(this)
-                .WithFullScreen()
-                .WithTargetActivity(Java.Lang.Class.FromType(typeof(HomeActivity)))
-                .WithSplashTimeOut(5000)
-                .WithBackgroundResource(Color.White)
-                .WithHeaderText("Header")
-                .WithFooterText("Copyright 2016")
-                .WithBeforeLogoText("My cool company")
-                .WithLogo(Resource.Drawable.logo_nuevo)
-                .WithAfterLogoText("Some more details");
+            base.OnCreate(savedInstanceState, persistentState);
+            Log.Debug(TAG, "SplashActivity.OnCreate");
+        }
 
-                config.BeforeLogoTextView.SetTextColor(Color.Gray);
-                config.FooterTextView.SetTextColor(Color.Gray);
-                config.AfterLogoTextView.SetTextColor(Color.Gray);
+        // Prevent the back button from canceling the startup process
+        public override void OnBackPressed() { }
 
-            View view = config.Create();
+        // Launches the startup task
+        protected override void OnResume()
+        {
+            base.OnResume();
+            Task startupWork = new Task(() => { SimulateStartup(); });
+            startupWork.Start();
+        }
 
-            //SetContentView(Resource.Layout.Splash);
-
+        // Simulates background work that happens behind the splash screen
+        async void SimulateStartup()
+        {
+            Log.Debug(TAG, "Performing some startup work that takes a bit of time.");
+            await Task.Delay(8000); // Simulate a bit of startup work.
+            Log.Debug(TAG, "Startup work is finished - starting MainActivity.");
+            StartActivity(new Intent(Application.Context, typeof(LoginActivity)));
         }
     }
 }
