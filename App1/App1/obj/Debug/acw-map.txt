@@ -1,4 +1,0 @@
-UGYM.MainActivity, App1;md5cc790a20e3551be845b95ff4d52ee3bc.MainActivity
-UGYM.MainActivity, App1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5cc790a20e3551be845b95ff4d52ee3bc.MainActivity
-UGYM.MainActivity;md5cc790a20e3551be845b95ff4d52ee3bc.MainActivity
-ugym.MainActivity;md5cc790a20e3551be845b95ff4d52ee3bc.MainActivity
