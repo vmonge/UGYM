@@ -12,7 +12,7 @@ using Android.Widget;
 
 namespace App1
 {
-    [Activity(Label = "Login", MainLauncher = true , Theme = "@style/Theme.AppCompat.Light.NoActionBar")]
+    [Activity(Label = "Login", Theme = "@style/Theme.AppCompat.Light.NoActionBar")]
     public class LoginActivity : Activity
     {
         protected override void OnCreate(Bundle savedInstanceState)
