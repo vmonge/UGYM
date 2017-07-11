@@ -2,7 +2,7 @@
 <xs:schema xmlns:app="http://schemas.android.com/apk/res-auto" attributeFormDefault="qualified" targetNamespace="http://schemas.android.com/apk/res-auto" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:annotation>
     <xs:documentation>v25</xs:documentation>
-    <xs:documentation>6/30/2017 3:23:05 PM</xs:documentation>
+    <xs:documentation>7/10/2017 4:17:24 PM</xs:documentation>
   </xs:annotation>
   <xs:attribute name="allowStacking">
     <xs:annotation>
@@ -157,7 +157,6 @@
             <xs:enumeration value="@drawable/abc_vector_test" />
             <xs:enumeration value="@drawable/curl_biceps" />
             <xs:enumeration value="@drawable/fondocelestefondoinicio" />
-            <xs:enumeration value="@drawable/fondocelestefondologin" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/logo" />
             <xs:enumeration value="@drawable/logo_nuevo" />
@@ -174,6 +173,7 @@
             <xs:enumeration value="@drawable/notification_tile_bg" />
             <xs:enumeration value="@drawable/notify_panel_notification_icon_bg" />
             <xs:enumeration value="@drawable/splash_logo" />
+            <xs:enumeration value="@drawable/splash_screen" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -574,7 +574,6 @@
             <xs:enumeration value="@drawable/abc_vector_test" />
             <xs:enumeration value="@drawable/curl_biceps" />
             <xs:enumeration value="@drawable/fondocelestefondoinicio" />
-            <xs:enumeration value="@drawable/fondocelestefondologin" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/logo" />
             <xs:enumeration value="@drawable/logo_nuevo" />
@@ -591,6 +590,7 @@
             <xs:enumeration value="@drawable/notification_tile_bg" />
             <xs:enumeration value="@drawable/notify_panel_notification_icon_bg" />
             <xs:enumeration value="@drawable/splash_logo" />
+            <xs:enumeration value="@drawable/splash_screen" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -909,7 +909,6 @@
             <xs:enumeration value="@drawable/abc_vector_test" />
             <xs:enumeration value="@drawable/curl_biceps" />
             <xs:enumeration value="@drawable/fondocelestefondoinicio" />
-            <xs:enumeration value="@drawable/fondocelestefondologin" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/logo" />
             <xs:enumeration value="@drawable/logo_nuevo" />
@@ -926,6 +925,7 @@
             <xs:enumeration value="@drawable/notification_tile_bg" />
             <xs:enumeration value="@drawable/notify_panel_notification_icon_bg" />
             <xs:enumeration value="@drawable/splash_logo" />
+            <xs:enumeration value="@drawable/splash_screen" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -2154,7 +2154,6 @@
             <xs:enumeration value="@drawable/abc_vector_test" />
             <xs:enumeration value="@drawable/curl_biceps" />
             <xs:enumeration value="@drawable/fondocelestefondoinicio" />
-            <xs:enumeration value="@drawable/fondocelestefondologin" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/logo" />
             <xs:enumeration value="@drawable/logo_nuevo" />
@@ -2171,6 +2170,7 @@
             <xs:enumeration value="@drawable/notification_tile_bg" />
             <xs:enumeration value="@drawable/notify_panel_notification_icon_bg" />
             <xs:enumeration value="@drawable/splash_logo" />
+            <xs:enumeration value="@drawable/splash_screen" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -2627,7 +2627,6 @@
             <xs:enumeration value="@drawable/abc_vector_test" />
             <xs:enumeration value="@drawable/curl_biceps" />
             <xs:enumeration value="@drawable/fondocelestefondoinicio" />
-            <xs:enumeration value="@drawable/fondocelestefondologin" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/logo" />
             <xs:enumeration value="@drawable/logo_nuevo" />
@@ -2644,6 +2643,7 @@
             <xs:enumeration value="@drawable/notification_tile_bg" />
             <xs:enumeration value="@drawable/notify_panel_notification_icon_bg" />
             <xs:enumeration value="@drawable/splash_logo" />
+            <xs:enumeration value="@drawable/splash_screen" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -2962,7 +2962,6 @@
             <xs:enumeration value="@drawable/abc_vector_test" />
             <xs:enumeration value="@drawable/curl_biceps" />
             <xs:enumeration value="@drawable/fondocelestefondoinicio" />
-            <xs:enumeration value="@drawable/fondocelestefondologin" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/logo" />
             <xs:enumeration value="@drawable/logo_nuevo" />
@@ -2979,6 +2978,7 @@
             <xs:enumeration value="@drawable/notification_tile_bg" />
             <xs:enumeration value="@drawable/notify_panel_notification_icon_bg" />
             <xs:enumeration value="@drawable/splash_logo" />
+            <xs:enumeration value="@drawable/splash_screen" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -3424,7 +3424,6 @@
             <xs:enumeration value="@drawable/abc_vector_test" />
             <xs:enumeration value="@drawable/curl_biceps" />
             <xs:enumeration value="@drawable/fondocelestefondoinicio" />
-            <xs:enumeration value="@drawable/fondocelestefondologin" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/logo" />
             <xs:enumeration value="@drawable/logo_nuevo" />
@@ -3441,6 +3440,7 @@
             <xs:enumeration value="@drawable/notification_tile_bg" />
             <xs:enumeration value="@drawable/notify_panel_notification_icon_bg" />
             <xs:enumeration value="@drawable/splash_logo" />
+            <xs:enumeration value="@drawable/splash_screen" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -3759,7 +3759,6 @@
             <xs:enumeration value="@drawable/abc_vector_test" />
             <xs:enumeration value="@drawable/curl_biceps" />
             <xs:enumeration value="@drawable/fondocelestefondoinicio" />
-            <xs:enumeration value="@drawable/fondocelestefondologin" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/logo" />
             <xs:enumeration value="@drawable/logo_nuevo" />
@@ -3776,6 +3775,7 @@
             <xs:enumeration value="@drawable/notification_tile_bg" />
             <xs:enumeration value="@drawable/notify_panel_notification_icon_bg" />
             <xs:enumeration value="@drawable/splash_logo" />
+            <xs:enumeration value="@drawable/splash_screen" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -4441,7 +4441,6 @@
             <xs:enumeration value="@drawable/abc_vector_test" />
             <xs:enumeration value="@drawable/curl_biceps" />
             <xs:enumeration value="@drawable/fondocelestefondoinicio" />
-            <xs:enumeration value="@drawable/fondocelestefondologin" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/logo" />
             <xs:enumeration value="@drawable/logo_nuevo" />
@@ -4458,6 +4457,7 @@
             <xs:enumeration value="@drawable/notification_tile_bg" />
             <xs:enumeration value="@drawable/notify_panel_notification_icon_bg" />
             <xs:enumeration value="@drawable/splash_logo" />
+            <xs:enumeration value="@drawable/splash_screen" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -4776,7 +4776,6 @@
             <xs:enumeration value="@drawable/abc_vector_test" />
             <xs:enumeration value="@drawable/curl_biceps" />
             <xs:enumeration value="@drawable/fondocelestefondoinicio" />
-            <xs:enumeration value="@drawable/fondocelestefondologin" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/logo" />
             <xs:enumeration value="@drawable/logo_nuevo" />
@@ -4793,6 +4792,7 @@
             <xs:enumeration value="@drawable/notification_tile_bg" />
             <xs:enumeration value="@drawable/notify_panel_notification_icon_bg" />
             <xs:enumeration value="@drawable/splash_logo" />
+            <xs:enumeration value="@drawable/splash_screen" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -5111,7 +5111,6 @@
             <xs:enumeration value="@drawable/abc_vector_test" />
             <xs:enumeration value="@drawable/curl_biceps" />
             <xs:enumeration value="@drawable/fondocelestefondoinicio" />
-            <xs:enumeration value="@drawable/fondocelestefondologin" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/logo" />
             <xs:enumeration value="@drawable/logo_nuevo" />
@@ -5128,6 +5127,7 @@
             <xs:enumeration value="@drawable/notification_tile_bg" />
             <xs:enumeration value="@drawable/notify_panel_notification_icon_bg" />
             <xs:enumeration value="@drawable/splash_logo" />
+            <xs:enumeration value="@drawable/splash_screen" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -5528,7 +5528,6 @@
             <xs:enumeration value="@drawable/abc_vector_test" />
             <xs:enumeration value="@drawable/curl_biceps" />
             <xs:enumeration value="@drawable/fondocelestefondoinicio" />
-            <xs:enumeration value="@drawable/fondocelestefondologin" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/logo" />
             <xs:enumeration value="@drawable/logo_nuevo" />
@@ -5545,6 +5544,7 @@
             <xs:enumeration value="@drawable/notification_tile_bg" />
             <xs:enumeration value="@drawable/notify_panel_notification_icon_bg" />
             <xs:enumeration value="@drawable/splash_logo" />
+            <xs:enumeration value="@drawable/splash_screen" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -5863,7 +5863,6 @@
             <xs:enumeration value="@drawable/abc_vector_test" />
             <xs:enumeration value="@drawable/curl_biceps" />
             <xs:enumeration value="@drawable/fondocelestefondoinicio" />
-            <xs:enumeration value="@drawable/fondocelestefondologin" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/logo" />
             <xs:enumeration value="@drawable/logo_nuevo" />
@@ -5880,6 +5879,7 @@
             <xs:enumeration value="@drawable/notification_tile_bg" />
             <xs:enumeration value="@drawable/notify_panel_notification_icon_bg" />
             <xs:enumeration value="@drawable/splash_logo" />
+            <xs:enumeration value="@drawable/splash_screen" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -6305,7 +6305,6 @@
             <xs:enumeration value="@drawable/abc_vector_test" />
             <xs:enumeration value="@drawable/curl_biceps" />
             <xs:enumeration value="@drawable/fondocelestefondoinicio" />
-            <xs:enumeration value="@drawable/fondocelestefondologin" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/logo" />
             <xs:enumeration value="@drawable/logo_nuevo" />
@@ -6322,6 +6321,7 @@
             <xs:enumeration value="@drawable/notification_tile_bg" />
             <xs:enumeration value="@drawable/notify_panel_notification_icon_bg" />
             <xs:enumeration value="@drawable/splash_logo" />
+            <xs:enumeration value="@drawable/splash_screen" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -6722,7 +6722,6 @@
             <xs:enumeration value="@drawable/abc_vector_test" />
             <xs:enumeration value="@drawable/curl_biceps" />
             <xs:enumeration value="@drawable/fondocelestefondoinicio" />
-            <xs:enumeration value="@drawable/fondocelestefondologin" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/logo" />
             <xs:enumeration value="@drawable/logo_nuevo" />
@@ -6739,6 +6738,7 @@
             <xs:enumeration value="@drawable/notification_tile_bg" />
             <xs:enumeration value="@drawable/notify_panel_notification_icon_bg" />
             <xs:enumeration value="@drawable/splash_logo" />
+            <xs:enumeration value="@drawable/splash_screen" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -7236,7 +7236,6 @@
             <xs:enumeration value="@drawable/abc_vector_test" />
             <xs:enumeration value="@drawable/curl_biceps" />
             <xs:enumeration value="@drawable/fondocelestefondoinicio" />
-            <xs:enumeration value="@drawable/fondocelestefondologin" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/logo" />
             <xs:enumeration value="@drawable/logo_nuevo" />
@@ -7253,6 +7252,7 @@
             <xs:enumeration value="@drawable/notification_tile_bg" />
             <xs:enumeration value="@drawable/notify_panel_notification_icon_bg" />
             <xs:enumeration value="@drawable/splash_logo" />
+            <xs:enumeration value="@drawable/splash_screen" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -7847,7 +7847,6 @@
             <xs:enumeration value="@drawable/abc_vector_test" />
             <xs:enumeration value="@drawable/curl_biceps" />
             <xs:enumeration value="@drawable/fondocelestefondoinicio" />
-            <xs:enumeration value="@drawable/fondocelestefondologin" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/logo" />
             <xs:enumeration value="@drawable/logo_nuevo" />
@@ -7864,6 +7863,7 @@
             <xs:enumeration value="@drawable/notification_tile_bg" />
             <xs:enumeration value="@drawable/notify_panel_notification_icon_bg" />
             <xs:enumeration value="@drawable/splash_logo" />
+            <xs:enumeration value="@drawable/splash_screen" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -9428,7 +9428,6 @@
             <xs:enumeration value="@drawable/abc_vector_test" />
             <xs:enumeration value="@drawable/curl_biceps" />
             <xs:enumeration value="@drawable/fondocelestefondoinicio" />
-            <xs:enumeration value="@drawable/fondocelestefondologin" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/logo" />
             <xs:enumeration value="@drawable/logo_nuevo" />
@@ -9445,6 +9444,7 @@
             <xs:enumeration value="@drawable/notification_tile_bg" />
             <xs:enumeration value="@drawable/notify_panel_notification_icon_bg" />
             <xs:enumeration value="@drawable/splash_logo" />
+            <xs:enumeration value="@drawable/splash_screen" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -9942,7 +9942,6 @@
             <xs:enumeration value="@drawable/abc_vector_test" />
             <xs:enumeration value="@drawable/curl_biceps" />
             <xs:enumeration value="@drawable/fondocelestefondoinicio" />
-            <xs:enumeration value="@drawable/fondocelestefondologin" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/logo" />
             <xs:enumeration value="@drawable/logo_nuevo" />
@@ -9959,6 +9958,7 @@
             <xs:enumeration value="@drawable/notification_tile_bg" />
             <xs:enumeration value="@drawable/notify_panel_notification_icon_bg" />
             <xs:enumeration value="@drawable/splash_logo" />
+            <xs:enumeration value="@drawable/splash_screen" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -10475,7 +10475,6 @@
             <xs:enumeration value="@drawable/abc_vector_test" />
             <xs:enumeration value="@drawable/curl_biceps" />
             <xs:enumeration value="@drawable/fondocelestefondoinicio" />
-            <xs:enumeration value="@drawable/fondocelestefondologin" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/logo" />
             <xs:enumeration value="@drawable/logo_nuevo" />
@@ -10492,6 +10491,7 @@
             <xs:enumeration value="@drawable/notification_tile_bg" />
             <xs:enumeration value="@drawable/notify_panel_notification_icon_bg" />
             <xs:enumeration value="@drawable/splash_logo" />
+            <xs:enumeration value="@drawable/splash_screen" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
