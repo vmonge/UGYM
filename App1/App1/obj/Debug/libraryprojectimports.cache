@@ -2,15 +2,15 @@
 <Paths>
   <Jars></Jars>
   <ResolvedResourceDirectories>
-    <ResolvedResourceDirectory>C:\Users\jorge.gomez\Source\Repos\UGYM_Mobile_App\App1\App1\obj\Debug\__library_projects__\EasySplashScreen\library_project_imports\res</ResolvedResourceDirectory>
-    <ResolvedResourceDirectory>C:\Users\jorge.gomez\Source\Repos\UGYM_Mobile_App\App1\App1\obj\Debug\__library_projects__\Xamarin.Android.Support.v7.AppCompat\library_project_imports\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>C:\Users\User\Source\Repos\UGYM_Mobile_App\App1\App1\obj\Debug\__library_projects__\EasySplashScreen\library_project_imports\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>C:\Users\User\Source\Repos\UGYM_Mobile_App\App1\App1\obj\Debug\__library_projects__\Xamarin.Android.Support.v7.AppCompat\library_project_imports\res</ResolvedResourceDirectory>
   </ResolvedResourceDirectories>
   <ResolvedAssetDirectories>
     <ResolvedAssetDirectory>obj\Debug\__library_projects__\EasySplashScreen\library_project_imports\assets</ResolvedAssetDirectory>
   </ResolvedAssetDirectories>
   <ResolvedEnvironmentFiles />
   <ResolvedResourceDirectoryStamps>
-    <ResolvedResourceDirectoryStamp>C:\Users\jorge.gomez\Source\Repos\UGYM_Mobile_App\App1\App1\obj\Debug\__library_projects__\EasySplashScreen.stamp</ResolvedResourceDirectoryStamp>
-    <ResolvedResourceDirectoryStamp>C:\Users\jorge.gomez\Source\Repos\UGYM_Mobile_App\App1\App1\obj\Debug\__library_projects__\Xamarin.Android.Support.v7.AppCompat.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>C:\Users\User\Source\Repos\UGYM_Mobile_App\App1\App1\obj\Debug\__library_projects__\EasySplashScreen.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>C:\Users\User\Source\Repos\UGYM_Mobile_App\App1\App1\obj\Debug\__library_projects__\Xamarin.Android.Support.v7.AppCompat.stamp</ResolvedResourceDirectoryStamp>
   </ResolvedResourceDirectoryStamps>
 </Paths>
