@@ -21,5 +21,9 @@
   
  <!--Pagina de Informacion Personal-->
     
-    
+    <!-- HOME -->
+
+  <string name="b_empezar">Empezar</string>
+  
+  
 </resources>
