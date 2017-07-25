@@ -2383,6 +2383,9 @@ namespace App1
 			// aapt resource value: 0x7f050021
 			public const int app_name = 2131034145;
 			
+			// aapt resource value: 0x7f05002b
+			public const int b_empezar = 2131034155;
+			
 			// aapt resource value: 0x7f050025
 			public const int b_entrar = 2131034149;
 			
