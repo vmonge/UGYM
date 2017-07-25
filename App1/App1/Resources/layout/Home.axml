@@ -29,19 +29,22 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/button1"
-        android:backgroundTint="#ff87cefa" />
+        android:backgroundTint="#ff87cefa"
+        android:textColor="@android:color/background_light" />
     <Button
         android:text="Informacion Personal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/button2"
-        android:backgroundTint="#ff87cefa" />
+        android:backgroundTint="#ff87cefa"
+        android:textColor="@android:color/background_light" />
     <Button
         android:text="Mensajes"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/button3"
-        android:backgroundTint="#ff87cefa" />
+        android:backgroundTint="#ff87cefa"
+        android:textColor="@android:color/background_light" />
     <Space
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -55,5 +58,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/button4"
-        android:backgroundTint="#ff87cefa" />
+        android:backgroundTint="#ff87cefa"
+        android:textColor="@android:color/background_light" />
 </LinearLayout>
