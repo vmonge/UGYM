@@ -33,6 +33,7 @@ namespace UGYM
 
             email.Focusable = true;
 
+            //Click function to login
 
             login.Click += (sender, e) =>
             {
@@ -92,31 +93,6 @@ namespace UGYM
                 }
 
             };
-
-            //var callDialog = new AlertDialog.Builder(this);
-            //callButton.Click += (sender, e) =>
-            //{
-            //    // On "Call" button click, try to dial phone number.
-                
-            //    callDialog.SetMessage("Call " + translatedNumber + "?");
-            //    callDialog.SetNeutralButton("Call", delegate
-            //    {
-            //        // add dialed number to list of called numbers.
-            //        phoneNumbers.Add(translatedNumber);
-            //        // enable the Call History button
-            //        callHistoryButton.Enabled = true;
-
-            //        // Create intent to dial phone
-            //        var callIntent = new Intent(Intent.ActionDial);
-            //        callIntent.SetData(Uri.Parse("tel:" + translatedNumber));
-            //        StartActivity(callIntent);
-            //    });
-            //    callDialog.SetNegativeButton("Cancel", delegate { });
-
-                //DisplayAlert("Warnning", "Wrong password, please try again", "Try Again");
-
-                //login.Click += Valida_login;
-                // Create your application here
         }
     }
 }

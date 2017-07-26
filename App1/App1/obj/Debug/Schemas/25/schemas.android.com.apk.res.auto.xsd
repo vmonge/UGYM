@@ -2,7 +2,7 @@
 <xs:schema xmlns:app="http://schemas.android.com/apk/res-auto" attributeFormDefault="qualified" targetNamespace="http://schemas.android.com/apk/res-auto" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:annotation>
     <xs:documentation>v25</xs:documentation>
-    <xs:documentation>7/21/2017 11:01:47 AM</xs:documentation>
+    <xs:documentation>7/25/2017 11:12:44 PM</xs:documentation>
   </xs:annotation>
   <xs:attribute name="allowStacking">
     <xs:annotation>
@@ -440,6 +440,7 @@
             <xs:enumeration value="@string/abc_toolbar_collapse_description" />
             <xs:enumeration value="@string/app_name" />
             <xs:enumeration value="@string/ApplicationName" />
+            <xs:enumeration value="@string/b_empezar" />
             <xs:enumeration value="@string/b_entrar" />
             <xs:enumeration value="@string/b_siguiente" />
             <xs:enumeration value="@string/search_menu_title" />
@@ -2020,6 +2021,7 @@
             <xs:enumeration value="@string/abc_toolbar_collapse_description" />
             <xs:enumeration value="@string/app_name" />
             <xs:enumeration value="@string/ApplicationName" />
+            <xs:enumeration value="@string/b_empezar" />
             <xs:enumeration value="@string/b_entrar" />
             <xs:enumeration value="@string/b_siguiente" />
             <xs:enumeration value="@string/search_menu_title" />
@@ -3290,6 +3292,7 @@
             <xs:enumeration value="@string/abc_toolbar_collapse_description" />
             <xs:enumeration value="@string/app_name" />
             <xs:enumeration value="@string/ApplicationName" />
+            <xs:enumeration value="@string/b_empezar" />
             <xs:enumeration value="@string/b_entrar" />
             <xs:enumeration value="@string/b_siguiente" />
             <xs:enumeration value="@string/search_menu_title" />
@@ -4042,6 +4045,7 @@
             <xs:enumeration value="@string/abc_toolbar_collapse_description" />
             <xs:enumeration value="@string/app_name" />
             <xs:enumeration value="@string/ApplicationName" />
+            <xs:enumeration value="@string/b_empezar" />
             <xs:enumeration value="@string/b_entrar" />
             <xs:enumeration value="@string/b_siguiente" />
             <xs:enumeration value="@string/search_menu_title" />
@@ -4307,6 +4311,7 @@
             <xs:enumeration value="@string/abc_toolbar_collapse_description" />
             <xs:enumeration value="@string/app_name" />
             <xs:enumeration value="@string/ApplicationName" />
+            <xs:enumeration value="@string/b_empezar" />
             <xs:enumeration value="@string/b_entrar" />
             <xs:enumeration value="@string/b_siguiente" />
             <xs:enumeration value="@string/search_menu_title" />
@@ -5394,6 +5399,7 @@
             <xs:enumeration value="@string/abc_toolbar_collapse_description" />
             <xs:enumeration value="@string/app_name" />
             <xs:enumeration value="@string/ApplicationName" />
+            <xs:enumeration value="@string/b_empezar" />
             <xs:enumeration value="@string/b_entrar" />
             <xs:enumeration value="@string/b_siguiente" />
             <xs:enumeration value="@string/search_menu_title" />
@@ -6588,6 +6594,7 @@
             <xs:enumeration value="@string/abc_toolbar_collapse_description" />
             <xs:enumeration value="@string/app_name" />
             <xs:enumeration value="@string/ApplicationName" />
+            <xs:enumeration value="@string/b_empezar" />
             <xs:enumeration value="@string/b_entrar" />
             <xs:enumeration value="@string/b_siguiente" />
             <xs:enumeration value="@string/search_menu_title" />
@@ -8466,6 +8473,7 @@
             <xs:enumeration value="@string/abc_toolbar_collapse_description" />
             <xs:enumeration value="@string/app_name" />
             <xs:enumeration value="@string/ApplicationName" />
+            <xs:enumeration value="@string/b_empezar" />
             <xs:enumeration value="@string/b_entrar" />
             <xs:enumeration value="@string/b_siguiente" />
             <xs:enumeration value="@string/search_menu_title" />
