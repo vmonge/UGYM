@@ -17,6 +17,7 @@ namespace App1
     {
         protected override void OnCreate(Bundle savedInstanceState)
         {
+            SetContentView(Resource.Layout.Info);
             base.OnCreate(savedInstanceState);
 
             // Create your application here
