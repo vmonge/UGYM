@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    android:background="@drawable/fondocelestefondoinicio">
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="137.0dp"
+        android:id="@+id/space1"
+        android:layout_marginBottom="0.0dp"
+        android:layout_marginTop="0.0dp"
+        android:layout_marginLeft="0.0dp" />
+    <ImageView xmlns:tools="http://schemas.android.com/tools"
+        android:src="@drawable/logo"
+        android:layout_width="match_parent"
+        android:layout_height="132.0dp"
+        android:id="@+id/imageView1"
+        tools:visibility="visible"
+        android:layout_marginBottom="0.0dp"
+        android:layout_marginTop="0.0dp" />
+    <TextView
+        android:text="@string/txt_correo"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/textView1"
+        android:textColor="@android:color/darker_gray"
+        android:textAlignment="center"
+        android:paddingLeft="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <ScrollView
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="67.0dp"
+        android:id="@+id/scrollView1">
+        <TextView
+            android:text="Small Text"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:id="@+id/textView4"
+            android:textColor="@android:color/darker_gray"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </ScrollView>
+    <TextView
+        android:text="@string/txt_contrasenna"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:textColor="@android:color/darker_gray"
+        android:textAlignment="center"
+        android:paddingLeft="10dp" />
+    <ScrollView
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="100.0dp"
+        android:id="@+id/scrollView2">
+        <TextView
+            android:text="Small Text"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:id="@+id/textView3"
+            android:textColor="@android:color/darker_gray"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </ScrollView>
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="18.0dp"
+        android:id="@+id/space2" />
+    <CheckedTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkedTextView1"
+        android:text="@string/txt_olvido_contasenna"
+        android:textAlignment="center"
+        android:autoText="true"
+        android:includeFontPadding="true"
+        android:drawableTint="#00000000"
+        android:textColor="@android:color/darker_gray"
+        android:layoutDirection="locale"
+        android:layout_gravity="center_horizontal" />
+</LinearLayout>

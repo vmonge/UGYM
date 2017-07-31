@@ -25,23 +25,26 @@
         android:id="@+id/space4"
         android:layout_marginBottom="25.0dp" />
     <Button
-        android:text="Empezar"
+        android:text="@string/b_empezar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/button1"
-        android:backgroundTint="#ff87cefa" />
+        android:id="@+id/b_empezar"
+        android:backgroundTint="#ff87cefa"
+        android:textColor="@android:color/background_light" />
     <Button
         android:text="Informacion Personal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/button2"
-        android:backgroundTint="#ff87cefa" />
+        android:id="@+id/b_info"
+        android:backgroundTint="#ff87cefa"
+        android:textColor="@android:color/background_light" />
     <Button
         android:text="Mensajes"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/button3"
-        android:backgroundTint="#ff87cefa" />
+        android:id="@+id/b_mensa"
+        android:backgroundTint="#ff87cefa"
+        android:textColor="@android:color/background_light" />
     <Space
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -54,6 +57,7 @@
         android:text="Salir"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/button4"
-        android:backgroundTint="#ff87cefa" />
+        android:id="@+id/b_log_out"
+        android:backgroundTint="#ff87cefa"
+        android:textColor="@android:color/background_light" />
 </LinearLayout>
