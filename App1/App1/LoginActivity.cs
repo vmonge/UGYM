@@ -15,7 +15,7 @@ using System.Threading.Tasks;
 
 namespace UGYM
 {
-    [Activity(Label = "Login", Theme = "@style/Theme.AppCompat.Light.NoActionBar")]
+    [Activity(Label = "Login", Theme = "@style/Theme.AppCompat.Light.NoActionBar", NoHistory = true)]
     public class LoginActivity : Activity
     {
         Button login;
@@ -26,13 +26,20 @@ namespace UGYM
         {
             SetContentView(Resource.Layout.Login);
             base.OnCreate(savedInstanceState);
+           
+        }
 
+        // Launches the startup task
+        protected override void OnResume()
+        {
+            base.OnResume();
             login = FindViewById<Button>(Resource.Id.b_login);
             email = FindViewById<EditText>(Resource.Id.editText1);
             pass = FindViewById<EditText>(Resource.Id.editText2);
 
             email.Focusable = true;
 
+            //Click function to login
 
             login.Click += (sender, e) =>
             {
@@ -85,38 +92,16 @@ namespace UGYM
                 }
                 catch (Exception)
                 {
-                    
+
                     messageDialog.SetMessage("Error: ");
                     messageDialog.SetNeutralButton("Try again later", delegate { });
                     messageDialog.Show();
                 }
 
             };
-
-            //var callDialog = new AlertDialog.Builder(this);
-            //callButton.Click += (sender, e) =>
-            //{
-            //    // On "Call" button click, try to dial phone number.
-                
-            //    callDialog.SetMessage("Call " + translatedNumber + "?");
-            //    callDialog.SetNeutralButton("Call", delegate
-            //    {
-            //        // add dialed number to list of called numbers.
-            //        phoneNumbers.Add(translatedNumber);
-            //        // enable the Call History button
-            //        callHistoryButton.Enabled = true;
-
-            //        // Create intent to dial phone
-            //        var callIntent = new Intent(Intent.ActionDial);
-            //        callIntent.SetData(Uri.Parse("tel:" + translatedNumber));
-            //        StartActivity(callIntent);
-            //    });
-            //    callDialog.SetNegativeButton("Cancel", delegate { });
-
-                //DisplayAlert("Warnning", "Wrong password, please try again", "Try Again");
-
-                //login.Click += Valida_login;
-                // Create your application here
         }
+
+        // Prevent the back button from canceling the startup process
+        public override void OnBackPressed() { }
     }
 }
