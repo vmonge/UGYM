@@ -41,11 +41,7 @@ namespace UGYM
             Log.Debug(TAG, "Performing some startup work that takes a bit of time.");
             await Task.Delay(5000); // Simulate a bit of startup work.
             Log.Debug(TAG, "Startup work is finished - starting MainActivity.");
-            if (true)
-            {
-                StartActivity(new Intent(Application.Context, typeof(LoginActivity)));
-            }
-            //StartActivity(new Intent(Application.Context, typeof(LoginActivity)));
+            StartActivity(new Intent(Application.Context, typeof(LoginActivity)));
         }
     }
 }

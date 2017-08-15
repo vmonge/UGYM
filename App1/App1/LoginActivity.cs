@@ -15,7 +15,7 @@ using System.Threading.Tasks;
 
 namespace UGYM
 {
-    [Activity(Label = "Login", Theme = "@style/Theme.AppCompat.Light.NoActionBar", NoHistory = true)]
+    [Activity(Label = "Login", Theme = "@style/Theme.AppCompat.Light.NoActionBar")]
     public class LoginActivity : Activity
     {
         Button login;
@@ -26,13 +26,7 @@ namespace UGYM
         {
             SetContentView(Resource.Layout.Login);
             base.OnCreate(savedInstanceState);
-           
-        }
 
-        // Launches the startup task
-        protected override void OnResume()
-        {
-            base.OnResume();
             login = FindViewById<Button>(Resource.Id.b_login);
             email = FindViewById<EditText>(Resource.Id.editText1);
             pass = FindViewById<EditText>(Resource.Id.editText2);
@@ -92,7 +86,7 @@ namespace UGYM
                 }
                 catch (Exception)
                 {
-
+                    
                     messageDialog.SetMessage("Error: ");
                     messageDialog.SetNeutralButton("Try again later", delegate { });
                     messageDialog.Show();
@@ -100,8 +94,5 @@ namespace UGYM
 
             };
         }
-
-        // Prevent the back button from canceling the startup process
-        public override void OnBackPressed() { }
     }
 }
