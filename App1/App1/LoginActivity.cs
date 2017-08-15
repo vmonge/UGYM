@@ -15,7 +15,7 @@ using System.Threading.Tasks;
 
 namespace UGYM
 {
-    [Activity(Label = "Login", Theme = "@style/Theme.AppCompat.Light.NoActionBar")]
+    [Activity(Label = "Login", Theme = "@style/Theme.AppCompat.Light.NoActionBar", NoHistory = true)]
     public class LoginActivity : Activity
     {
         Button login;
