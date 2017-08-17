@@ -14,7 +14,7 @@ using App1;
 
 namespace UGYM
 {
-    [Activity(Label = "HomeActivity", Theme ="@style/Theme.AppCompat.Light.NoActionBar", NoHistory = true)]
+    [Activity(Label = "HomeActivity", Theme ="@style/Theme.AppCompat.Light.NoActionBar")]
     public class HomeActivity : Activity
     {
         private Button empezar, mensa, log_out, info;
