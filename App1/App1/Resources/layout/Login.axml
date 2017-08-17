@@ -27,6 +27,7 @@
         android:textAlignment="center"
         android:paddingLeft="10dp" />
     <EditText
+        android:hint="Ingrese correo"
         android:inputType="textEmailAddress"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -43,6 +44,7 @@
         android:textAlignment="center"
         android:paddingLeft="10dp" />
     <EditText
+        android:hint="Ingrese contraseña"
         android:inputType="textPassword"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
