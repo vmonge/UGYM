@@ -89,12 +89,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="EjercicioActivity.cs" />
     <Compile Include="HomeActivity.cs" />
-    <Compile Include="InformacionActivity.cs" />
     <Compile Include="LoginActivity.cs" />
-    <Compile Include="MensagesActivity.cs" />
-    <Compile Include="RutinaActivity.cs" />
     <Compile Include="SplashActivity.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -111,9 +107,6 @@
       <SubType>Designer</SubType>
     </AndroidResource>
     <AndroidResource Include="Resources\layout\Splash.axml">
-      <SubType>Designer</SubType>
-    </AndroidResource>
-    <AndroidResource Include="Resources\layout\Info.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
   </ItemGroup>
