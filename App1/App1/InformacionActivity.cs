@@ -21,6 +21,8 @@ namespace App1
             base.OnCreate(savedInstanceState);
 
             // Create your application here
+
+
         }
     }
 }
