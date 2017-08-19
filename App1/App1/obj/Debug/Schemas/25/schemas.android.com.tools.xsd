@@ -2,7 +2,7 @@
 <xs:schema xmlns:tools="http://schemas.android.com/tools" attributeFormDefault="qualified" targetNamespace="http://schemas.android.com/tools" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:annotation>
     <xs:documentation>v25</xs:documentation>
-    <xs:documentation>19/8/2017 15:44:39</xs:documentation>
+    <xs:documentation>19/8/2017 17:48:57</xs:documentation>
   </xs:annotation>
   <xs:attribute name="layout">
     <xs:annotation>
@@ -39,7 +39,6 @@
             <xs:enumeration value="@layout/abc_search_dropdown_item_icons_2line" />
             <xs:enumeration value="@layout/abc_search_view" />
             <xs:enumeration value="@layout/abc_select_dialog_material" />
-            <xs:enumeration value="@layout/daylist" />
             <xs:enumeration value="@layout/design_bottom_navigation_item" />
             <xs:enumeration value="@layout/design_bottom_sheet_dialog" />
             <xs:enumeration value="@layout/design_layout_snackbar" />
@@ -54,9 +53,7 @@
             <xs:enumeration value="@layout/design_navigation_menu" />
             <xs:enumeration value="@layout/design_navigation_menu_item" />
             <xs:enumeration value="@layout/design_text_input_password_icon" />
-            <xs:enumeration value="@layout/home" />
             <xs:enumeration value="@layout/info" />
-            <xs:enumeration value="@layout/list_view_datatemplate" />
             <xs:enumeration value="@layout/login" />
             <xs:enumeration value="@layout/mr_chooser_dialog" />
             <xs:enumeration value="@layout/mr_chooser_list_item" />
@@ -160,7 +157,6 @@
             <xs:enumeration value="@layout/abc_search_dropdown_item_icons_2line" />
             <xs:enumeration value="@layout/abc_search_view" />
             <xs:enumeration value="@layout/abc_select_dialog_material" />
-            <xs:enumeration value="@layout/daylist" />
             <xs:enumeration value="@layout/design_bottom_navigation_item" />
             <xs:enumeration value="@layout/design_bottom_sheet_dialog" />
             <xs:enumeration value="@layout/design_layout_snackbar" />
@@ -175,9 +171,7 @@
             <xs:enumeration value="@layout/design_navigation_menu" />
             <xs:enumeration value="@layout/design_navigation_menu_item" />
             <xs:enumeration value="@layout/design_text_input_password_icon" />
-            <xs:enumeration value="@layout/home" />
             <xs:enumeration value="@layout/info" />
-            <xs:enumeration value="@layout/list_view_datatemplate" />
             <xs:enumeration value="@layout/login" />
             <xs:enumeration value="@layout/mr_chooser_dialog" />
             <xs:enumeration value="@layout/mr_chooser_list_item" />
@@ -281,7 +275,6 @@
             <xs:enumeration value="@layout/abc_search_dropdown_item_icons_2line" />
             <xs:enumeration value="@layout/abc_search_view" />
             <xs:enumeration value="@layout/abc_select_dialog_material" />
-            <xs:enumeration value="@layout/daylist" />
             <xs:enumeration value="@layout/design_bottom_navigation_item" />
             <xs:enumeration value="@layout/design_bottom_sheet_dialog" />
             <xs:enumeration value="@layout/design_layout_snackbar" />
@@ -296,9 +289,7 @@
             <xs:enumeration value="@layout/design_navigation_menu" />
             <xs:enumeration value="@layout/design_navigation_menu_item" />
             <xs:enumeration value="@layout/design_text_input_password_icon" />
-            <xs:enumeration value="@layout/home" />
             <xs:enumeration value="@layout/info" />
-            <xs:enumeration value="@layout/list_view_datatemplate" />
             <xs:enumeration value="@layout/login" />
             <xs:enumeration value="@layout/mr_chooser_dialog" />
             <xs:enumeration value="@layout/mr_chooser_list_item" />
@@ -402,7 +393,6 @@
             <xs:enumeration value="@layout/abc_search_dropdown_item_icons_2line" />
             <xs:enumeration value="@layout/abc_search_view" />
             <xs:enumeration value="@layout/abc_select_dialog_material" />
-            <xs:enumeration value="@layout/daylist" />
             <xs:enumeration value="@layout/design_bottom_navigation_item" />
             <xs:enumeration value="@layout/design_bottom_sheet_dialog" />
             <xs:enumeration value="@layout/design_layout_snackbar" />
@@ -417,9 +407,7 @@
             <xs:enumeration value="@layout/design_navigation_menu" />
             <xs:enumeration value="@layout/design_navigation_menu_item" />
             <xs:enumeration value="@layout/design_text_input_password_icon" />
-            <xs:enumeration value="@layout/home" />
             <xs:enumeration value="@layout/info" />
-            <xs:enumeration value="@layout/list_view_datatemplate" />
             <xs:enumeration value="@layout/login" />
             <xs:enumeration value="@layout/mr_chooser_dialog" />
             <xs:enumeration value="@layout/mr_chooser_list_item" />
@@ -483,23 +471,6 @@
             <xs:enumeration value="?android:attr/textEditSuggestionContainerLayout" />
             <xs:enumeration value="?android:attr/textEditSuggestionItemLayout" />
             <xs:enumeration value="?android:attr/windowActionBarFullscreenDecorLayout" />
-          </xs:restriction>
-        </xs:simpleType>
-      </xs:union>
-    </xs:simpleType>
-  </xs:attribute>
-  <xs:attribute name="openDrawer">
-    <xs:annotation>
-      <xs:documentation></xs:documentation>
-    </xs:annotation>
-    <xs:simpleType>
-      <xs:union memberTypes="xs:string">
-        <xs:simpleType>
-          <xs:restriction base="xs:string">
-            <xs:enumeration value="end" />
-            <xs:enumeration value="left" />
-            <xs:enumeration value="right" />
-            <xs:enumeration value="start" />
           </xs:restriction>
         </xs:simpleType>
       </xs:union>
@@ -584,8 +555,18 @@
             <xs:enumeration value="@string/txt_correo" />
             <xs:enumeration value="@string/txt_descripcion" />
             <xs:enumeration value="@string/txt_dia" />
+            <xs:enumeration value="@string/txt_direccion" />
+            <xs:enumeration value="@string/txt_email" />
+            <xs:enumeration value="@string/txt_header_direccion" />
+            <xs:enumeration value="@string/txt_header_email" />
+            <xs:enumeration value="@string/txt_header_other" />
+            <xs:enumeration value="@string/txt_header_phone" />
+            <xs:enumeration value="@string/txt_header_website" />
             <xs:enumeration value="@string/txt_olvido_contasenna" />
+            <xs:enumeration value="@string/txt_other" />
+            <xs:enumeration value="@string/txt_phone" />
             <xs:enumeration value="@string/txt_titulo" />
+            <xs:enumeration value="@string/txt_website" />
             <xs:enumeration value="@android:string/cancel" />
             <xs:enumeration value="@android:string/copy" />
             <xs:enumeration value="@android:string/copyUrl" />
