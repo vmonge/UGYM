@@ -17,7 +17,7 @@
     <AndroidResgenFile>Resources\Resource.Designer.cs</AndroidResgenFile>
     <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
     <AndroidUseLatestPlatformSdk>True</AndroidUseLatestPlatformSdk>
-    <TargetFrameworkVersion>v7.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v6.0</TargetFrameworkVersion>
     <AndroidManifest>Properties\AndroidManifest.xml</AndroidManifest>
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
@@ -89,14 +89,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Activitys\RutinActivity.cs" />
-    <Compile Include="Activitys\EjercicioActivity.cs" />
-    <Compile Include="Activitys\HomeActivity.cs" />
-    <Compile Include="Activitys\InformacionActivity.cs" />
-    <Compile Include="Activitys\LoginActivity.cs" />
-    <Compile Include="Activitys\MensagesActivity.cs" />
-    <Compile Include="Activitys\RutinaActivity.cs" />
-    <Compile Include="Activitys\SplashActivity.cs" />
+    <Compile Include="HomeActivity.cs" />
+    <Compile Include="LoginActivity.cs" />
+    <Compile Include="SplashActivity.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -112,12 +107,6 @@
       <SubType>Designer</SubType>
     </AndroidResource>
     <AndroidResource Include="Resources\layout\Splash.axml">
-      <SubType>Designer</SubType>
-    </AndroidResource>
-    <AndroidResource Include="Resources\layout\Info.axml">
-      <SubType>Designer</SubType>
-    </AndroidResource>
-    <AndroidResource Include="Resources\layout\RutinList.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
   </ItemGroup>
