@@ -47,7 +47,7 @@ namespace UGYM
             Rutina rutina1 = new Rutina()
             {
                 Dia = "Dia 1",
-                Nombre = "Espalda y Pectorales"
+                Nombre = "Hombros y Piernas"
             };
             Rutina rutina2 = new Rutina()
             {
@@ -57,12 +57,12 @@ namespace UGYM
             Rutina rutina3 = new Rutina()
             {
                 Dia = "Dia 3",
-                Nombre = "Espalda y Pectorales"
+                Nombre = "Brazos y Abdomen"
             };
             try
             {
                 db = new DataBase();
-                if (db.createDataBase())
+                if (false)
                 {
                     db.InsertTableRutina(rutina1);
                     db.InsertTableRutina(rutina2);

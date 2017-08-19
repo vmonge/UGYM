@@ -57,7 +57,7 @@ namespace App1.Resources
             var view = convertView ?? activity.LayoutInflater.Inflate(Resource.Layout.list_view_dataTemplate, parent, false);
 
             var txtDia = view.FindViewById<TextView>(Resource.Id.textView1);
-            var txtName = view.FindViewById<TextView>(Resource.Id.textView1);
+            var txtName = view.FindViewById<TextView>(Resource.Id.textView2);
 
             txtDia.Text = listRutina[position].Dia;
             txtName.Text = listRutina[position].Nombre;

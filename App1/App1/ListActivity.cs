@@ -21,10 +21,10 @@ namespace UGYM
     public class ListActivity : Activity
     {
 
-        int rutina = 0;
+        
         ListView listData;
         List<Rutina> listRutina = new List<Rutina>();
-        DataBase db;
+        DataBase db = new DataBase();
 
         protected override void OnCreate(Bundle savedInstanceState)
         {
@@ -44,8 +44,18 @@ namespace UGYM
             //Event
             listData.ItemClick += delegate
               {
-                  //Set backup for selected item
-
+                  var messageDialog = new Android.App.AlertDialog.Builder(this);
+                  try
+                  {
+                      var intent = new Intent(this, typeof(EjercicioActivity));
+                      StartActivity(intent);
+                  }
+                  catch (Exception ex)
+                  {
+                      messageDialog.SetMessage("Error: " + ex);
+                      messageDialog.SetNeutralButton("Try again later", delegate { });
+                      messageDialog.Show();
+                  }
               };
         }
 
