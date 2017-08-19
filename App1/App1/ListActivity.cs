@@ -21,10 +21,10 @@ namespace UGYM
     public class ListActivity : Activity
     {
 
-        int rutina = 0;
+        
         ListView listData;
         List<Rutina> listRutina = new List<Rutina>();
-        DataBase db;
+        DataBase db = new DataBase();
 
         protected override void OnCreate(Bundle savedInstanceState)
         {

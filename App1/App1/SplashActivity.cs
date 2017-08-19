@@ -62,7 +62,7 @@ namespace UGYM
             try
             {
                 db = new DataBase();
-                if (db.createDataBase())
+                if (false)
                 {
                     db.InsertTableRutina(rutina1);
                     db.InsertTableRutina(rutina2);
