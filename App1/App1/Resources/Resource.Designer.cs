@@ -1891,9 +1891,6 @@ namespace App1
 			// aapt resource value: 0x7f0b002b
 			public const int list_item = 2131427371;
 			
-			// aapt resource value: 0x7f0b0084
-			public const int lv_rutinas = 2131427460;
-			
 			// aapt resource value: 0x7f0b0071
 			public const int media_actions = 2131427441;
 			
@@ -2275,22 +2272,19 @@ namespace App1
 			public const int Rutina = 2130968621;
 			
 			// aapt resource value: 0x7f04002e
-			public const int RutinList = 2130968622;
+			public const int select_dialog_item_material = 2130968622;
 			
 			// aapt resource value: 0x7f04002f
-			public const int select_dialog_item_material = 2130968623;
+			public const int select_dialog_multichoice_material = 2130968623;
 			
 			// aapt resource value: 0x7f040030
-			public const int select_dialog_multichoice_material = 2130968624;
+			public const int select_dialog_singlechoice_material = 2130968624;
 			
 			// aapt resource value: 0x7f040031
-			public const int select_dialog_singlechoice_material = 2130968625;
+			public const int Splash = 2130968625;
 			
 			// aapt resource value: 0x7f040032
-			public const int Splash = 2130968626;
-			
-			// aapt resource value: 0x7f040033
-			public const int support_simple_spinner_dropdown_item = 2130968627;
+			public const int support_simple_spinner_dropdown_item = 2130968626;
 			
 			static Layout()
 			{
