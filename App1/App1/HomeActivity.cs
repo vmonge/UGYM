@@ -35,7 +35,7 @@ namespace UGYM
 
                 try
                 {
-                    var intent = new Intent(this, typeof(RutinaActivity));
+                    var intent = new Intent(this, typeof(ListActivity));
                     StartActivity(intent);
                 }
                 catch (Exception ex)

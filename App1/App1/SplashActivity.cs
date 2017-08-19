@@ -9,13 +9,16 @@ using App1;
 using System.Threading.Tasks;
 using Android.Util;
 using Android.Content;
+using UGYM.Resources.DataHelperSQLite;
+using App1.Resources.Model;
 
 namespace UGYM
 {
     [Activity(Label = "UGYM", MainLauncher = true, Icon = "@drawable/logo_nuevo", Theme = "@style/MyTheme.Splash", NoHistory = true)]
     public class SplashActivity : AppCompatActivity
     {
-
+        DataBase db;
+        
         static readonly string TAG = "X:" + typeof(SplashActivity).Name;
 
         public override void OnCreate(Bundle savedInstanceState, PersistableBundle persistentState)
@@ -41,11 +44,41 @@ namespace UGYM
             Log.Debug(TAG, "Performing some startup work that takes a bit of time.");
             await Task.Delay(5000); // Simulate a bit of startup work.
             Log.Debug(TAG, "Startup work is finished - starting MainActivity.");
-            if (true)
+            Rutina rutina1 = new Rutina()
             {
-                StartActivity(new Intent(Application.Context, typeof(LoginActivity)));
+                Dia = "Dia 1",
+                Nombre = "Espalda y Pectorales"
+            };
+            Rutina rutina2 = new Rutina()
+            {
+                Dia = "Dia 2",
+                Nombre = "Espalda y Pectorales"
+            };
+            Rutina rutina3 = new Rutina()
+            {
+                Dia = "Dia 3",
+                Nombre = "Espalda y Pectorales"
+            };
+            try
+            {
+                db = new DataBase();
+                if (db.createDataBase())
+                {
+                    db.InsertTableRutina(rutina1);
+                    db.InsertTableRutina(rutina2);
+                    db.InsertTableRutina(rutina3);
+                    StartActivity(new Intent(Application.Context, typeof(LoginActivity)));
+                }
+                else
+                {
+                    StartActivity(new Intent(Application.Context, typeof(HomeActivity)));
+                }
             }
-            //StartActivity(new Intent(Application.Context, typeof(LoginActivity)));
+            catch (System.Exception)
+            {
+
+                throw;
+            }
         }
     }
 }
