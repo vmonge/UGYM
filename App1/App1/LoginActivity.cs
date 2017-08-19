@@ -54,7 +54,7 @@ namespace UGYM
                                 else
                                 {
                                     messageDialog.SetMessage("Error, contaseña incorrecta ");
-                                    messageDialog.SetNeutralButton("Try again", delegate { });
+                                    messageDialog.SetNeutralButton("Oops! Ha ocurrido un error, por favor, intenta de nuevo.", delegate { });
                                     messageDialog.Show();
                                     pass.Focusable = true;
                                 }
@@ -63,7 +63,7 @@ namespace UGYM
                             else
                             {
                                 messageDialog.SetMessage("Error, correo no encontrado ");
-                                messageDialog.SetNeutralButton("Try again", delegate { });
+                                messageDialog.SetNeutralButton("Oops! Ha ocurrido un error, por favor, intenta de nuevo.", delegate { });
                                 messageDialog.Show();
                                 email.Focusable = true;
                             }
@@ -88,7 +88,7 @@ namespace UGYM
                 {
                     
                     messageDialog.SetMessage("Error: ");
-                    messageDialog.SetNeutralButton("Try again later", delegate { });
+                    messageDialog.SetNeutralButton("Oops! Ha ocurrido un error, por favor, intenta de nuevo.", delegate { });
                     messageDialog.Show();
                 }
 
