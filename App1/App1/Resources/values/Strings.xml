@@ -13,14 +13,26 @@
   
     <string name="txt_dia">Día </string>
     
- <!--Pagina de ejercisio-->
+ <!--Pagina de ejercicio-->
   
     <string name="txt_titulo"></string>
     <string name="txt_descripcion"></string>
     <string name="b_siguiente">Siguente</string>
   
- <!--Pagina de Informacion Personal-->
+<!--Pagina de Informacion Personal-->
+    <string name="txt_header_direccion">Dirección:</string>
+    <string name="txt_header_email">Correo Electrónico:</string>
+    <string name="txt_header_other">Facebook:</string>
+    <string name="txt_header_phone">Teléfono:</string>
+    <string name="txt_header_website">Website:</string>
     
+    <string name="txt_direccion">75 mts este de la Iglesia de Lourdes, Montes de Oca</string>
+    <string name="txt_email">info@gimnasiougym.com</string>
+    <string name="txt_other">https://www.facebook.com/gimnasio.ugym/</string>
+    <string name="txt_phone">2224-1845 / 2234-2781</string>
+    <string name="txt_website">http://www.gimnasiougym.com</string>
+  
+  
     <!-- HOME -->
 
   <string name="b_empezar">Empezar</string>

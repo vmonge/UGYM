@@ -44,8 +44,18 @@ namespace UGYM
             //Event
             listData.ItemClick += delegate
               {
-                  //Set backup for selected item
-
+                  var messageDialog = new Android.App.AlertDialog.Builder(this);
+                  try
+                  {
+                      var intent = new Intent(this, typeof(EjercicioActivity));
+                      StartActivity(intent);
+                  }
+                  catch (Exception ex)
+                  {
+                      messageDialog.SetMessage("Error: " + ex);
+                      messageDialog.SetNeutralButton("Try again later", delegate { });
+                      messageDialog.Show();
+                  }
               };
         }
 
