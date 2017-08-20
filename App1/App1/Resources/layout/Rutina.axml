@@ -16,7 +16,6 @@
         android:id="@+id/space1"
         android:layout_marginBottom="27.0dp" />
     <ImageView
-        android:src="@drawable/curl_biceps"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/imageView2" />
@@ -58,6 +57,6 @@
         android:text="@string/b_siguiente"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/button1"
+        android:id="@+id/b_siguente"
         android:backgroundTint="#ff87cefa" />
 </LinearLayout>

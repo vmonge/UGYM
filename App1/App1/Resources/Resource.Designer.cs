@@ -2880,14 +2880,14 @@ namespace App1
 			// aapt resource value: 0x7f090088
 			public const int b_mensa = 2131296392;
 			
+			// aapt resource value: 0x7f0900d0
+			public const int b_siguente = 2131296464;
+			
 			// aapt resource value: 0x7f090020
 			public const int beginning = 2131296288;
 			
 			// aapt resource value: 0x7f090028
 			public const int bottom = 2131296296;
-			
-			// aapt resource value: 0x7f0900d0
-			public const int button1 = 2131296464;
 			
 			// aapt resource value: 0x7f09004b
 			public const int buttonPanel = 2131296331;

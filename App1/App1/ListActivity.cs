@@ -47,7 +47,7 @@ namespace UGYM
                   var messageDialog = new Android.App.AlertDialog.Builder(this);
                   try
                   {
-                      var intent = new Intent(this, typeof(EjercicioActivity));
+                      var intent = new Intent(this, typeof(RutinaActivity));
                       StartActivity(intent);
                   }
                   catch (Exception ex)
