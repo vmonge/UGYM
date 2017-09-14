@@ -15,7 +15,7 @@ using System.Threading.Tasks;
 
 namespace UGYM
 {
-    [Activity(Label = "Login", Theme = "@style/Theme.AppCompat.Light.NoActionBar")]
+    [Activity(Label = "Login", Theme = "@style/Theme.AppCompat.Light.NoActionBar", NoHistory = true)]
     public class LoginActivity : Activity
     {
         Button login;
@@ -26,7 +26,13 @@ namespace UGYM
         {
             SetContentView(Resource.Layout.Login);
             base.OnCreate(savedInstanceState);
+           
+        }
 
+        // Launches the startup task
+        protected override void OnResume()
+        {
+            base.OnResume();
             login = FindViewById<Button>(Resource.Id.b_login);
             email = FindViewById<EditText>(Resource.Id.editText1);
             pass = FindViewById<EditText>(Resource.Id.editText2);
@@ -54,7 +60,7 @@ namespace UGYM
                                 else
                                 {
                                     messageDialog.SetMessage("Error, contaseña incorrecta ");
-                                    messageDialog.SetNeutralButton("Try again", delegate { });
+                                    messageDialog.SetNeutralButton("Oops! Ha ocurrido un error, por favor, intenta de nuevo.", delegate { });
                                     messageDialog.Show();
                                     pass.Focusable = true;
                                 }
@@ -63,7 +69,7 @@ namespace UGYM
                             else
                             {
                                 messageDialog.SetMessage("Error, correo no encontrado ");
-                                messageDialog.SetNeutralButton("Try again", delegate { });
+                                messageDialog.SetNeutralButton("Oops! Ha ocurrido un error, por favor, intenta de nuevo.", delegate { });
                                 messageDialog.Show();
                                 email.Focusable = true;
                             }
@@ -86,13 +92,16 @@ namespace UGYM
                 }
                 catch (Exception)
                 {
-                    
+
                     messageDialog.SetMessage("Error: ");
-                    messageDialog.SetNeutralButton("Try again later", delegate { });
+                    messageDialog.SetNeutralButton("Oops! Ha ocurrido un error, por favor, intenta de nuevo.", delegate { });
                     messageDialog.Show();
                 }
 
             };
         }
+
+        // Prevent the back button from canceling the startup process
+        public override void OnBackPressed() { }
     }
 }

@@ -14,7 +14,7 @@ using App1;
 
 namespace UGYM
 {
-    [Activity(Label = "HomeActivity", Theme ="@style/Theme.AppCompat.Light.NoActionBar", NoHistory = true)]
+    [Activity(Label = "HomeActivity", Theme ="@style/Theme.AppCompat.Light.NoActionBar")]
     public class HomeActivity : Activity
     {
         private Button empezar, mensa, log_out, info;
@@ -35,7 +35,7 @@ namespace UGYM
 
                 try
                 {
-                    var intent = new Intent(this, typeof(RutinaActivity));
+                    var intent = new Intent(this, typeof(ListActivity));
                     StartActivity(intent);
                 }
                 catch (Exception ex)
