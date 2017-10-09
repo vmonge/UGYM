@@ -62,11 +62,12 @@ namespace UGYM
             try
             {
                 db = new DataBase();
-                if (false)
+                if (true)
                 {
-                    db.InsertTableRutina(rutina1);
-                    db.InsertTableRutina(rutina2);
-                    db.InsertTableRutina(rutina3);
+                    db.DeleteQueryTablaRutina();
+                    //db.InsertTableRutina(rutina1);
+                    //db.InsertTableRutina(rutina2);
+                    //db.InsertTableRutina(rutina3);
                     StartActivity(new Intent(Application.Context, typeof(LoginActivity)));
                 }
                 else

@@ -86,6 +86,23 @@ namespace UGYM.Resources.DataHelperSQLite
             }
         }
 
+        public bool DeleteQueryTablaRutina()
+        {
+            try
+            {
+                using (var connection = new SQLiteConnection(System.IO.Path.Combine(folder, "UGYM.db")))
+                {
+                    connection.Query<Rutina>("DROP TABEL Rutina");
+                    return true;
+                }
+            }
+            catch (SQLiteException ex)
+            {
+                Log.Info("SQLite Exception", ex.Message);
+                return false;
+            }
+        }
+
 
     }
 }
