@@ -92,7 +92,7 @@ namespace UGYM.Resources.DataHelperSQLite
             {
                 using (var connection = new SQLiteConnection(System.IO.Path.Combine(folder, "UGYM.db")))
                 {
-                    connection.Query<Rutina>("DROP TABEL Rutina");
+                    //connection.DeleteAll<Rutina>();
                     return true;
                 }
             }

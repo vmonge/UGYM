@@ -18,13 +18,13 @@ namespace App1.Resources.DataBaseMySQL
     class MySQLconn
     {
 
-        string ust;
+        string usr;
         string pass;
 
         public MySQLconn(string usr, string pass)
         {
-            usr = User;
-            pass = Password;
+            usr = "User";
+            pass = "Password";
         }
 
         MySqlConnectionStringBuilder Builder = new MySqlConnectionStringBuilder();
@@ -43,10 +43,10 @@ namespace App1.Resources.DataBaseMySQL
                 Error = "";
                 return true;
             }
-            catch (Exception ex)
+            catch (Exception )
             {
-                Error = ex.ToString;
-                return false;
+                //Error = e;
+                throw;
             }
         }
 
