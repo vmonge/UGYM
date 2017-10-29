@@ -19,13 +19,13 @@ namespace UGYM.Resources.DataHelperSQLite
     {
         string folder = System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal);
 
-        public bool createDataBase()
+        public bool CreateDataBase()
         {
             try
             {
-                using (var connection = new SQLiteConnection(System.IO.Path.Combine(folder, "UGYM.db")))
+                using (var connection = new SQLiteConnection(System.IO.Path.Combine(folder, "UGYM_DB.db")))
                 {
-                    connection.CreateTable<Rutina>();
+                    connection.CreateTable<Usuario>();
                     return true;
                 }
             }
@@ -36,13 +36,13 @@ namespace UGYM.Resources.DataHelperSQLite
             }
         }
 
-        public bool InsertTableRutina(Rutina rutina)
+        public bool InsertTableUsuario(Usuario usuario)
         {
             try
             {
-                using (var connection = new SQLiteConnection(System.IO.Path.Combine(folder, "UGYM.db")))
+                using (var connection = new SQLiteConnection(System.IO.Path.Combine(folder, "UGYM_DB.db")))
                 {
-                    connection.Insert(rutina);
+                    connection.Insert(usuario);
                     return true;
                 }
             }
@@ -86,13 +86,37 @@ namespace UGYM.Resources.DataHelperSQLite
             }
         }
 
-        public bool DeleteQueryTablaRutina()
+        public bool SelectQueryTableUsuario()
         {
             try
             {
                 using (var connection = new SQLiteConnection(System.IO.Path.Combine(folder, "UGYM.db")))
                 {
-                    //connection.DeleteAll<Rutina>();
+                    int count = Convert.ToInt32(connection.Query<Rutina>("SELECT count(*) FROM User"));
+                    if (count == 1)
+                    {
+                        return true;
+                    }
+                    else
+                    {
+                        return false;
+                    }
+                }
+            }
+            catch (SQLiteException ex)
+            {
+                Log.Info("SQLite Exception", ex.Message);
+                return false;
+            }
+        }
+
+        public bool DeleteQueryTablaUsuario()
+        {
+            try
+            {
+                using (var connection = new SQLiteConnection(System.IO.Path.Combine(folder, "UGYM.db")))
+                {
+                    connection.DeleteAll<Usuario>();
                     return true;
                 }
             }
@@ -103,6 +127,22 @@ namespace UGYM.Resources.DataHelperSQLite
             }
         }
 
+        public bool SelectQueryStateUsuario()
+        {
 
+            try
+            {
+                using (var connection = new SQLiteConnection(System.IO.Path.Combine(folder, "UGYM.db")))
+                {
+                    connection.Query<Usuario>("SELECT count(*) FROM table");
+                    return true;
+                }
+            }
+            catch (SQLiteException ex)
+            {
+                Log.Info("SQLite Exception", ex.Message);
+                return false;
+            }
+        }
     }
 }

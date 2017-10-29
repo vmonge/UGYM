@@ -11,10 +11,15 @@ using Android.Util;
 using Android.Content;
 using UGYM.Resources.DataHelperSQLite;
 using App1.Resources.Model;
+using Android.Database;
+using System;
+using SQLite;
+using Android.Database.Sqlite;
+using System.Data;
 
 namespace UGYM
 {
-    [Activity(Label = "UGYM", MainLauncher = true, Icon = "@drawable/logo_nuevo", Theme = "@style/MyTheme.Splash", NoHistory = true)]
+    [Activity(Label = "UGYM", Icon = "@drawable/logo_nuevo", MainLauncher = true, Theme = "@style/MyTheme.Splash", NoHistory = true)]
     public class SplashActivity : AppCompatActivity
     {
         DataBase db;
@@ -44,31 +49,37 @@ namespace UGYM
             Log.Debug(TAG, "Performing some startup work that takes a bit of time.");
             await Task.Delay(5000); // Simulate a bit of startup work.
             Log.Debug(TAG, "Startup work is finished - starting MainActivity.");
-            Rutina rutina1 = new Rutina()
+
+            try
             {
-                Dia = "Dia 1",
-                Nombre = "Hombros y Piernas"
-            };
-            Rutina rutina2 = new Rutina()
+                db = this.getWritableDatabase();
+                String count = "SELECT count(*) FROM Usuario";
+                ICursor mcursor = db.RawQuery(count, null);
+                mcursor.MoveToFirst();
+                int icount = mcursor.GetInt(0);
+                if (icount > 0)
+                {
+                    StartActivity(new Intent(Application.Context, typeof(HomeActivity)));
+                }
+                else
+                {
+                    StartActivity(new Intent(Application.Context, typeof(HomeActivity)));
+                }
+            }
+            catch (System.Exception)
             {
-                Dia = "Dia 2",
-                Nombre = "Espalda y Pectorales"
-            };
-            Rutina rutina3 = new Rutina()
-            {
-                Dia = "Dia 3",
-                Nombre = "Brazos y Abdomen"
-            };
+
+                throw;
+            }
+            
             try
             {
                 db = new DataBase();
                 if (true)
                 {
                     db.DeleteQueryTablaRutina();
-                    //db.InsertTableRutina(rutina1);
-                    //db.InsertTableRutina(rutina2);
-                    //db.InsertTableRutina(rutina3);
-                    StartActivity(new Intent(Application.Context, typeof(LoginActivity)));
+                    
+                    StartActivity(new Intent(Application.Context, typeof(HomeActivity)));
                 }
                 else
                 {

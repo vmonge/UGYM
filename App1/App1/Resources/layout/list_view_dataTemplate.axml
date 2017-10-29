@@ -4,20 +4,21 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@android:color/background_light">
-    <TextView
-        android:text="Large Text"
-        android:textAppearance="?android:attr/textAppearanceLarge"
+    <CheckBox
+        android:text="CheckBox"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/textView1"
-        android:textColor="@android:color/holo_blue_light" />
+        android:id="@+id/checkBox1"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="@dimen/abc_action_bar_content_inset_material" />
     <TextView
         android:text="Medium Text"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/textView2"
-        android:textColor="@android:color/darker_gray" />
+        android:textColor="@android:color/darker_gray"
+        android:paddingLeft="40dp" />
     <TextView
         android:text="___________________________________________________________"
         android:textAppearance="?android:attr/textAppearanceSmall"

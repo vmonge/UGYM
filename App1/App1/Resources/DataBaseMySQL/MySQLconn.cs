@@ -15,26 +15,27 @@ using System.Data;
 
 namespace App1.Resources.DataBaseMySQL
 {
+    
+
     class MySQLconn
     {
 
         string usr;
         string pass;
 
-        public MySQLconn(string usr, string pass)
+        public MySQLconn()
         {
-            usr = "User";
-            pass = "Password";
+            usr = string.Empty;
+            pass = string.Empty;
         }
-
-        MySqlConnectionStringBuilder Builder = new MySqlConnectionStringBuilder();
-
-        public bool TryConnection(out string Error)
-        {
-            Builder.Server = "13.90.252.180";
+    
+       MySqlConnectionStringBuilder Builder = new MySqlConnectionStringBuilder();
+    
+        public bool OpenConn(out string Error)    {
+            Builder.Server = "ugymmobile.eastus.cloudapp.azure.com";
             Builder.Database = "ugym_mobile";
-            Builder.UserID = "ugym_mobile";
-            Builder.Password = "$3c_truecontrol";
+            Builder.UserID = "vmonge";
+            Builder.Password = "#c_2hU0l!a#462.$";
 
             try
             {
@@ -43,12 +44,16 @@ namespace App1.Resources.DataBaseMySQL
                 Error = "";
                 return true;
             }
-            catch (Exception )
+            catch (Exception ex)
             {
-                //Error = e;
-                throw;
+                Error = ex.ToString();
+                return false;
             }
         }
 
+        internal bool TryConnection(out string error)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

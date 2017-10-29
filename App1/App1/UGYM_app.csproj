@@ -142,6 +142,7 @@
     <Compile Include="Resources\DataHelperSQLite\DataBase.cs" />
     <Compile Include="Resources\ListViewAdapter.cs" />
     <Compile Include="Resources\Model\Rutina.cs" />
+    <Compile Include="Resources\Model\Usuario.cs" />
     <Compile Include="RutinaActivity.cs" />
     <Compile Include="ServerActivity.cs" />
     <Compile Include="SplashActivity.cs" />
